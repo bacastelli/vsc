@@ -5,6 +5,8 @@
   Charm to deploy Nuage Networks VSC on MaaS
 "tags":
 - "ops"
+"series":
+- "bionic"
 "requires":
   "container":
     "interface": "juju-info"
@@ -12,4 +14,5 @@
 "provides":
   "vrs-controller-service":
     "interface": "nuage-vrs-control"
+"display-name": "MetroAE"
 "subordinate": !!bool "true"

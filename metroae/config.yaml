@@ -52,7 +52,7 @@
     "description": "VSC: The BOF/Management IP address of the controller."
   "vsc_mgmt_ip_prefix":
     "type": "int"
-    "default": !!null ""
+    "default": !!int "24"
     "description": "VSC: Management network prefix length."
   "vsc_mgmt_gateway":
     "type": "string"
@@ -64,7 +64,7 @@
     "description": "VSC: The Control/Data IP address of the controller."
   "vsc_ctrl_ip_prefix":
     "type": "int"
-    "default": !!null ""
+    "default": !!int "24"
     "description": "VSC: Control network prefix length."
   "vsc_system_ip":
     "type": "string"
