@@ -1,0 +1,5 @@
+nuage-vsc:
+        dns_domain: "example.com"
+        ntp_server_list:
+                - "128.222.1.1"
+                - "128.222.1.2"

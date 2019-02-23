@@ -1,0 +1,15 @@
+"name": "metroae"
+"summary": "Deploy Nuage Networks VSC on MaaS"
+"maintainer": "DevOps <devops@nuagenetworks.net>"
+"description": |
+  Charm to deploy Nuage Networks VSC on MaaS
+"tags":
+- "ops"
+"requires":
+  "container":
+    "interface": "juju-info"
+    "scope": "container"
+"provides":
+  "vrs-controller-service":
+    "interface": "nuage-vrs-control"
+"subordinate": !!bool "true"

@@ -1,0 +1,11 @@
+"includes":
+- "layer:options"
+- "layer:basic"
+"options":
+  "basic":
+    "packages": ["python2.7"]
+    "use_venv": !!bool "false"
+    "include_system_packages": !!bool "true"
+    "python_packages": []
+  "metroae": {}
+"is": "metroae"

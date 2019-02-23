@@ -1,0 +1,25 @@
+---
+- import_tasks: kvm.yml
+  when: target_server_type | match("kvm")
+  tags:
+    - vstat
+    - vstat-destroy
+
+- import_tasks: openstack.yml
+  when: target_server_type | match("openstack")
+  tags:
+    - vstat
+    - openstack
+    - vstat-destroy
+
+- import_tasks: vcenter.yml
+  when: target_server_type | match("vcenter")
+  tags:
+    - vstat
+    - vstat-destroy
+
+- import_tasks: aws.yml
+  when: target_server_type | match("aws")
+  tags:
+    - vstat
+    - vstat-destroy

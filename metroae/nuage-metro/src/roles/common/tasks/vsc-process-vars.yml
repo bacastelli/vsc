@@ -1,0 +1,66 @@
+---
+- block:
+
+  - block:
+
+    - name: Find name of VSC QCOW2 File
+      find: path="{{ nuage_unzipped_files_dir }}/vsc"  pattern="vsc_singledisk.qcow2" recurse=yes
+      register: rc_vsc_file
+
+    - debug: var=rc_vsc_file verbosity=1
+
+    - name: Register VSC QCOW2 variables with proper path and image locations for use in other playbooks
+      set_fact:
+        qcow2_path: "{{ rc_vsc_file.files[0].path | dirname }}"
+        qcow2_file_name: "{{ rc_vsc_file.files[0].path | basename }}"
+      when: rc_vsc_file.matched > 0
+
+    when: vscs | map(attribute='target_server_type') | list | issuperset(["kvm"])
+
+  - block:
+
+    - name: Find name of VSC OVA File
+      find: path="{{ nuage_unzipped_files_dir }}/vsc"  pattern="vsc_singledisk.ova" recurse=yes
+      register: rc_vsc_file
+
+    - debug: var=rc_vsc_file verbosity=1
+
+    - name: Register VSC OVA variables with proper path and image locations for use in other playbooks
+      set_fact:
+        ova_path: "{{ rc_vsc_file.files[0].path | dirname }}"
+        ova_file_name: "{{ rc_vsc_file.files[0].path | basename }}"
+      when: rc_vsc_file.matched > 0
+
+    when: vscs | map(attribute='target_server_type') | list | issuperset(["vcenter"])
+
+  - name: Find name of VSC TIM File
+    find: path="{{ nuage_unzipped_files_dir }}/vsc/single_disk"  pattern="cpm.tim" recurse=yes
+    register: rc_vsc_tim_file
+
+  - debug: var=rc_vsc_tim_file verbosity=1
+
+  - name: Register VSC TIM variables with proper path and image locations for use in other playbooks
+    set_fact:
+      vsc_tim_path: "{{ rc_vsc_tim_file.files[0].path | dirname }}"
+      vsc_tim_file_name: "{{ rc_vsc_tim_file.files[0].path | basename }}"
+    when: rc_vsc_tim_file.matched > 0
+
+  - name: Verify VSC management gateway is in correct IP range
+    include_role:
+      name: common
+      tasks_from: check-ip-in-range.yml
+    vars:
+      ip_address: "{{ item.mgmt_gateway }}"
+      netaddr: "{{ item.mgmt_ip }}"
+      netmask: "{{ item.mgmt_ip_prefix }}"
+    with_items: "{{ vscs }}"
+    when: item.internal_mgmt_ip is not defined
+
+  - name: Create host_vars files for vsc
+    template: src=vsc.j2 backup=no dest={{ inventory_dir }}/host_vars/{{ item.1.mgmt_ip }}
+    with_indexed_items: "{{ vscs }}"
+
+  when:
+    - vscs is defined and vscs
+  tags:
+    - vsc

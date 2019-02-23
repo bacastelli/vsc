@@ -1,0 +1,157 @@
+# *** WARNING ***
+# This is a generated file. Manual changes to this file
+# will be lost if reset-build or build is run
+#
+component_type: vsc
+target_server_type: {{ item.1.target_server_type }}
+hostname: {{ item.1.mgmt_ip }}
+
+{% if item.1.system_name is defined %}
+system_name: {{ item.1.system_name }}
+{% endif %}
+
+{% if item.1.target_server_type | match("kvm") or item.1.target_server_type | match("vcenter") %}
+target_server: {{ item.1.target_server }}
+{% endif %}
+
+{% if item.1.vmname is defined %}
+vmname: {{ item.1.vmname }}
+{% else %}
+vmname: {{ item.1.mgmt_ip }}
+{% endif %}
+
+{% if item.1.vlan_id is defined %}
+vlan_id: {{ item.1.vlan_id }}
+{% endif %}
+
+mgmt_ip: {{ item.1.mgmt_ip }}
+mgmt_netmask_prefix: {{ item.1.mgmt_ip_prefix }}
+mgmt_gateway: {{ item.1.mgmt_gateway }}
+
+{% if item.1.internal_mgmt_ip is defined %}
+internal_mgmt_ip: {{ item.1.internal_mgmt_ip }}
+{% endif %}
+control_ip: {{ item.1.ctrl_ip }}
+{% if item.1.ctrl_ip_vprn is defined %}
+control_ip_vprn: {{ item.1.ctrl_ip_vprn }}
+{% endif %}
+control_netmask_prefix: {{ item.1.ctrl_ip_prefix }}
+{% if item.1.internal_ctrl_ip is defined %}
+internal_ctrl_ip: {{ item.1.internal_ctrl_ip }}
+{% endif %}
+{% if item.1.internal_data_gateway_ip is defined %}
+internal_data_gateway_ip: {{ item.1.internal_data_gateway_ip }}
+{% endif %}
+
+{% if item.1.mgmt_routed_network_name is defined %}
+mgmt_routed_network_name: {{ item.1.mgmt_routed_network_name }}
+{% endif %}
+{% if item.1.data_routed_network_name is defined %}
+data_routed_network_name: {{ item.1.data_routed_network_name }}
+{% endif %}
+
+vsc_mgmt_static_route_list:
+{% if item.1.vsc_mgmt_static_route_list is defined %}
+{% for route in item.1.vsc_mgmt_static_route_list %}
+  - {{ route }}
+{% endfor %}
+{% else %}
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+{% endif %}
+
+{% if item.1.cpuset is defined %}
+cpuset:
+{% for cpus in item.1.cpuset %}
+  - {{ cpus }}
+{% endfor %}
+{% endif %}
+
+{% if item.1.target_server_type | match("kvm") %}
+
+{% if qcow2_path is defined %}
+qcow2_path: {{ qcow2_path }}
+{% endif %}
+{% if qcow2_file_name is defined %}
+qcow2_file_name: {{ qcow2_file_name }}
+{% endif %}
+
+{% endif %}
+
+{% if item.1.target_server_type | match("vcenter") %}
+
+{% if ova_path is defined %}
+ova_path: {{ ova_path }}
+{% endif %}
+{% if ova_file_name is defined %}
+ova_file_name: {{ ova_file_name }}
+{% endif %}
+
+vcenter:
+  username: {{ encrypted.vcenter_username | indent(8, False) }}
+  password: {{ encrypted.vcenter_password | indent(8, False) }}
+  datacenter: {{ item.vcenter_datacenter | default( vcenter_datacenter ) }}
+  cluster: {{ item.vcenter_cluster | default( vcenter_cluster ) }}
+  datastore: {{ item.vcenter_datastore | default( vcenter_datastore ) }}
+  resource_pool: {{ item.vcenter_resource_pool | default(vcenter_resource_pool | default('NONE')) }}
+  host_reference: {{ item.vcenter_host_reference | default(vcenter_host_reference | default('NONE')) }}
+
+{% endif %}
+
+{% if item.1.vsd_fqdn is defined %}
+vsd_fqdn: {{ item.1.vsd_fqdn }}
+{% else %}
+vsd_fqdn: {{ vsd_fqdn_global }}
+{% endif %}
+
+{% if item.1.system_ip is defined %}
+system_ip: {{ item.1.system_ip }}
+{% endif %}
+
+xmpp:
+  username: {{ item.1.xmpp_username | default("vsc" + item.0 | string) }}
+
+expected_num_bgp_peers :  {{ item.1.expected_num_bgp_peers | default('0') }}
+expected_num_vswitches :  {{ item.1.expected_num_vswitches | default('0') }}
+expected_num_host_vports : {{ item.1.expected_num_host_vports | default('0') }}
+expected_num_vm_vports :   {{ item.1.expected_num_vm_vports | default('0') }}
+expected_num_gateway_ports : {{ item.1.expected_num_gateway_ports | default('0') }}
+
+{% if item.1.target_server_type | match("openstack") %}
+
+openstack_image: {{ item.1.openstack_image }}
+openstack_flavor: {{ item.1.openstack_flavor }}
+openstack_mgmt_network: {{ item.1.openstack_mgmt_network }}
+openstack_mgmt_subnet: {{ item.1.openstack_mgmt_subnet }}
+openstack_control_network: {{ item.1.openstack_control_network }}
+openstack_control_subnet: {{ item.1.openstack_control_subnet }}
+
+{% if item.1.openstack_mgmt_port_name is defined %}
+openstack_mgmt_port_name: {{ item.1.openstack_mgmt_port_name }}
+{% endif %}
+{% if item.1.openstack_mgmt_port_security_groups is defined %}
+openstack_mgmt_port_security_groups:
+{% for group in item.1.openstack_mgmt_port_security_groups %}
+  - {{ group }}
+{% endfor %}
+{% endif %}
+
+
+{% if item.1.openstack_control_port_name is defined %}
+openstack_control_port_name: {{ item.1.openstack_control_port_name }}
+{% endif %}
+{% if item.1.openstack_control_port_security_groups is defined %}
+openstack_control_port_security_groups:
+{% for group in item.1.openstack_control_port_security_groups %}
+  - {{ group }}
+{% endfor %}
+{% endif %}
+
+{% endif %}
+
+{% if vsc_tim_path is defined %}
+vsc_tim_path: {{ vsc_tim_path }}
+{% endif %}
+{% if vsc_tim_file_name is defined %}
+vsc_tim_file_name: {{ vsc_tim_file_name }}
+{% endif %}

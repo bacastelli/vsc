@@ -1,0 +1,16 @@
+###############################################################################
+# Deployment
+#
+# Nuage VSP Deployment
+#
+
+# < Name >
+# The name of the deployment.  This will be used as the the deployment directory name.  No special characters allowed.
+#
+deployment_name: ""
+
+# < Description >
+# A suitable description of the deployment
+#
+# deployment_description: ""
+

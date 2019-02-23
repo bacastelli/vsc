@@ -1,0 +1,3883 @@
+{
+  "layers": [
+    {
+      "rev": "fcdcea4e5de3e1556c24e6704607862d0ba00a56",
+      "url": "layer:options"
+    },
+    {
+      "rev": "871cdfa33f120181f6267be2db5712984c760721",
+      "url": "layer:basic"
+    },
+    {
+      "rev": null,
+      "url": "metroae"
+    }
+  ],
+  "signatures": {
+    ".build.manifest": [
+      "build",
+      "dynamic",
+      "unchecked"
+    ],
+    ".gitignore": [
+      "layer:basic",
+      "static",
+      "0da5c4dcda27cd6406e5bb81cbf68ddccaf728ac764ec15053a165c1449d87d9"
+    ],
+    "LICENSE": [
+      "layer:basic",
+      "static",
+      "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    ],
+    "Makefile": [
+      "layer:basic",
+      "static",
+      "b7ab3a34e5faf79b96a8632039a0ad0aa87f2a9b5f0ba604e007cafb22190301"
+    ],
+    "README.md": [
+      "metroae",
+      "static",
+      "c1b055f7842132be32b8e4774c026b6d4f7ff5b0c3cd8df1ac2ea03a79ff1b44"
+    ],
+    "bin/charm-env": [
+      "layer:basic",
+      "static",
+      "09126ccb5849fa7c821a1fd0940ab794f32b5bde22956d043619596a34c974e4"
+    ],
+    "bin/layer_option": [
+      "layer:options",
+      "static",
+      "e959bf29da4c5edff28b2602c24113c4df9e25cdc9f2aa3b5d46c8577b2a40cc"
+    ],
+    "bundles/README.md": [
+      "metroae",
+      "static",
+      "7f9629971653fcca9d3112c3051f3fb316f1f2f8241bc01ccde2f6e690b9e1da"
+    ],
+    "bundles/vsc_bundle.yaml": [
+      "metroae",
+      "static",
+      "ced7e748df80803e17b0d4a1ef27804136b09e27362690c47212e20ef70ca44c"
+    ],
+    "config.yaml": [
+      "metroae",
+      "dynamic",
+      "c95bc0a9075115a0a0d49fe39815dc08eab3d4a9980daa5b60202748d224fac2"
+    ],
+    "copyright": [
+      "metroae",
+      "static",
+      "8f6b185709a13d462626e2fc905416a61f9a87780de25b32f52f36b8f87f50a1"
+    ],
+    "copyright.layer-basic": [
+      "layer:basic",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-options": [
+      "layer:options",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "hooks/config-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/container-relation-broken": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/container-relation-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/container-relation-departed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/container-relation-joined": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/hook.template": [
+      "layer:basic",
+      "static",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/install": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-elected": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-settings-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/post-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/pre-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/start": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/stop": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/update-status": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/upgrade-charm": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/vrs-controller-service-relation-broken": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/vrs-controller-service-relation-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/vrs-controller-service-relation-departed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/vrs-controller-service-relation-joined": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "icon.svg": [
+      "metroae",
+      "static",
+      "d20624e9389af6506a8d8a69ac9bba4d41709601b624c0875fd7d6717b395088"
+    ],
+    "layer.yaml": [
+      "metroae",
+      "dynamic",
+      "9b549fac2e6de006103029595a2cef125576148ee2380a5540013c29b5f4cbc3"
+    ],
+    "lib/charms/layer/__init__.py": [
+      "layer:basic",
+      "static",
+      "dfe0d26c6bf409767de6e2546bc648f150e1b396243619bad3aa0553ab7e0e6f"
+    ],
+    "lib/charms/layer/basic.py": [
+      "layer:basic",
+      "static",
+      "c3a84ecabc893ebdb2178b08daad29596ea8a0dbf6508fd2e45fe4b182e29c1d"
+    ],
+    "lib/charms/layer/execd.py": [
+      "layer:basic",
+      "static",
+      "fda8bd491032db1db8ddaf4e99e7cc878c6fb5432efe1f91cadb5b34765d076d"
+    ],
+    "lib/charms/layer/options.py": [
+      "layer:options",
+      "static",
+      "8ae7a07d22542fc964f2d2bee8219d1c78a68dace70a1b38d36d4aea47b1c3b2"
+    ],
+    "metadata.yaml": [
+      "metroae",
+      "dynamic",
+      "c30aa7a80c6dd5f1d455aeb350e8709a9f52be51a62719295ab65234b9b1385c"
+    ],
+    "nuage-metro/.gitignore": [
+      "metroae",
+      "static",
+      "d6b6633b962cfb9d405d3045edf20ae3404b7ad3100e60f7a0b8fa1f55998eb6"
+    ],
+    "nuage-metro/CONTRIBUTING.md": [
+      "metroae",
+      "static",
+      "abbfc79595f79721a046cc2cc00fc22269e3d051e5c651c266ba8613bcc98adc"
+    ],
+    "nuage-metro/Documentation/AWS.md": [
+      "metroae",
+      "static",
+      "76468e9ed10dc77c91dc2aa311f3284abbbc5d49e99ce88dc43e1cd917ec0f85"
+    ],
+    "nuage-metro/Documentation/CUSTOMIZE.md": [
+      "metroae",
+      "static",
+      "e3668d69d48cb0c9c2dc7f257c239c4c9e54e5e4d48fcea3f989d0156d35508a"
+    ],
+    "nuage-metro/Documentation/DEPLOY.md": [
+      "metroae",
+      "static",
+      "d89b027530fd737ae2cf537ce05144150ed5a7ecbd8aedab96827ad67bace3ef"
+    ],
+    "nuage-metro/Documentation/DESTROY.md": [
+      "metroae",
+      "static",
+      "1cf6c12bfee1fccee80b2015a77c761eb8565e36b1b198c0d6eb16b76b9b2807"
+    ],
+    "nuage-metro/Documentation/DOCKER.md": [
+      "metroae",
+      "static",
+      "f32f6afde27607251170c236efaf9cdf7f5d06acf797b4f6152c34b9a0aac3ed"
+    ],
+    "nuage-metro/Documentation/GETTING_STARTED.md": [
+      "metroae",
+      "static",
+      "7c9d976300d308b674792c7070e680ad0000364d21989804405559c69a6b8404"
+    ],
+    "nuage-metro/Documentation/RELEASE_NOTES.md": [
+      "metroae",
+      "static",
+      "106565a9c5cf34fd83a658c8c17e40e5e69493679d30aad286f7a50c55ce2f80"
+    ],
+    "nuage-metro/Documentation/SETUP.md": [
+      "metroae",
+      "static",
+      "fa30138772ca00aa50d339d7c355cb9c92fa58f8e46297c677a996d282de497a"
+    ],
+    "nuage-metro/Documentation/UPGRADE_HA.md": [
+      "metroae",
+      "static",
+      "1967e5e8334278e0b550e997fec4fce5ee908defc95fff884b5e4e3ed522c345"
+    ],
+    "nuage-metro/Documentation/UPGRADE_SA.md": [
+      "metroae",
+      "static",
+      "698c85e7054cda5bc9baac5ca7e0e1b794e2f7a9ead42c60b83bd42ada1b91fe"
+    ],
+    "nuage-metro/Documentation/VAULT_ENCRYPT.md": [
+      "metroae",
+      "static",
+      "72da237390e3a467eff467317ffa69ed486d638c2291062d9aa6c0d1b4b41fa9"
+    ],
+    "nuage-metro/Documentation/topology.png": [
+      "metroae",
+      "static",
+      "e3847d55870b2aa674e540803d582a38028651433c9a55e9d79d86797fb8b639"
+    ],
+    "nuage-metro/LICENSE.md": [
+      "metroae",
+      "static",
+      "0e54633d2744f75efa807d28b551023bcd9aeaefe28ec7a4605e3a6544c08ad3"
+    ],
+    "nuage-metro/README.md": [
+      "metroae",
+      "static",
+      "f24bbb2c60f0b736fcbb73ebad82247a6e43d21a74764f854e886c2f751eff4d"
+    ],
+    "nuage-metro/ansible.cfg": [
+      "metroae",
+      "static",
+      "a67832cbf97e3f62106d46393d25c4cc5133715376c16fed8090abb51f1cd12b"
+    ],
+    "nuage-metro/apt_requirements.txt": [
+      "metroae",
+      "static",
+      "82329d6a0c02c7fd372cd59f3fc81339273981591ecda8fec847a792b3856ec0"
+    ],
+    "nuage-metro/convert_build_vars_to_deployment.py": [
+      "metroae",
+      "static",
+      "4e530fd9d8e5bd9f65511770a04b29437234084e8ef39394b41d51a52a620cf9"
+    ],
+    "nuage-metro/deployments/default/common.yml": [
+      "metroae",
+      "static",
+      "d6d045d01205db0c0ed245660e89c84da6b0cf663d89cd85909dc5916eb463e5"
+    ],
+    "nuage-metro/deployments/default/credentials.yml": [
+      "metroae",
+      "static",
+      "77275bdc22a45b4ae3f2bc96c8cd00947e7d2495d914d652adedc1dbfd41be9f"
+    ],
+    "nuage-metro/deployments/default/upgrade.yml": [
+      "metroae",
+      "static",
+      "247de32e6b6a2cb3a57fa1df91b3255b692bb06c0a9537c1cdeb11ff1ad4e572"
+    ],
+    "nuage-metro/deployments/default/vscs.yml": [
+      "metroae",
+      "static",
+      "1c55d12ae44fcdb7e232da3fee948b0ed5c6180e1a572edfd085b7a893b83011"
+    ],
+    "nuage-metro/deployments/default/vsds.yml": [
+      "metroae",
+      "static",
+      "ead357571da148c2020cf4b9ecd03cb2a88789e6fe9eca7c6768156b446d2f51"
+    ],
+    "nuage-metro/deployments/default/vstats.yml": [
+      "metroae",
+      "static",
+      "81d6f3fcdf0ec81dad264878afefd4e2f468609a59302fc7abc84711d0d230a9"
+    ],
+    "nuage-metro/docker/MetroAE-nightly-118.noarch.rpm": [
+      "metroae",
+      "static",
+      "fd69962ab296c6e936b3671b3de81143d3636b28059876501715f4e73030a637"
+    ],
+    "nuage-metro/encrypt_credentials.py": [
+      "metroae",
+      "static",
+      "4318e83859dd7ba58af5d682b43e616a9899c2235579de86e55bb9bd7bc6ebcd"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/common.yml": [
+      "metroae",
+      "static",
+      "547b134c7ae35fbf72a97a044ff956311ce2c5fc94b41d1f6be4d2e14769e628"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/credentials.yml": [
+      "metroae",
+      "static",
+      "c65a704f153506e38ce06eda7c23ca512da750b53e81fe9f72866597293ad959"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/deployment.yml": [
+      "metroae",
+      "static",
+      "4f82e7d91c6725dc92e0f7909ead8f24418607b5f990e60d95d68ae37908c792"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/vnsutils.yml": [
+      "metroae",
+      "static",
+      "aef49d5098888e94cc6a37db0b018c8ec1f5c4862323f5d38ae2e0f58978fea0"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/vscs.yml": [
+      "metroae",
+      "static",
+      "cfc441852d739653f4464320229dd7018ecb553e9229d455befc90f97baa2bcb"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/vsds.yml": [
+      "metroae",
+      "static",
+      "bdc10e09e4dd0aa341bd079566c389da97c5f11651f421b97f83f1ba9da56be8"
+    ],
+    "nuage-metro/examples/aws_sdwan_install/vstats.yml": [
+      "metroae",
+      "static",
+      "4eb9d61dbff4d3feb4c3c011f137f754563763476ee7aa92aa86b64e0a2dd0f6"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/common.yml": [
+      "metroae",
+      "static",
+      "547b134c7ae35fbf72a97a044ff956311ce2c5fc94b41d1f6be4d2e14769e628"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/credentials.yml": [
+      "metroae",
+      "static",
+      "c65a704f153506e38ce06eda7c23ca512da750b53e81fe9f72866597293ad959"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/deployment.yml": [
+      "metroae",
+      "static",
+      "3a9b01f21e0fb1179074dc82cea41520bca192845625264c26a0a4c1c81892c7"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/upgrade.yml": [
+      "metroae",
+      "static",
+      "018575d75bc8aadcddea5583deb1803516d805aaf862d97fb12f38354c639ed3"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/vnsutils.yml": [
+      "metroae",
+      "static",
+      "aef49d5098888e94cc6a37db0b018c8ec1f5c4862323f5d38ae2e0f58978fea0"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/vscs.yml": [
+      "metroae",
+      "static",
+      "cfc441852d739653f4464320229dd7018ecb553e9229d455befc90f97baa2bcb"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/vsds.yml": [
+      "metroae",
+      "static",
+      "c2b48928eef6e5a72726d0ee485c8a78c4b89e12de9fbacac723158704372fe0"
+    ],
+    "nuage-metro/examples/aws_sdwan_upgrade/vstats.yml": [
+      "metroae",
+      "static",
+      "5387b8c4c22213eed405671de8b6d8fe021fbf1464cb02c552cdbdf601f15fc0"
+    ],
+    "nuage-metro/examples/aws_vpc_examples/aws-example-vpc.yml": [
+      "metroae",
+      "static",
+      "c590ef0a9b3ea7c4b0236a2705ef2ae375154b8d2d6be7025151c671bd1e1800"
+    ],
+    "nuage-metro/examples/blank_deployment/common.yml": [
+      "metroae",
+      "static",
+      "d6d045d01205db0c0ed245660e89c84da6b0cf663d89cd85909dc5916eb463e5"
+    ],
+    "nuage-metro/examples/blank_deployment/credentials.yml": [
+      "metroae",
+      "static",
+      "77275bdc22a45b4ae3f2bc96c8cd00947e7d2495d914d652adedc1dbfd41be9f"
+    ],
+    "nuage-metro/examples/blank_deployment/deployment.yml": [
+      "metroae",
+      "static",
+      "0ba01cd699aa0d6046f4e75da1454c2a79ec9e22d0c99f0f95f05db9218b3658"
+    ],
+    "nuage-metro/examples/blank_deployment/nsgv_bootstrap.yml": [
+      "metroae",
+      "static",
+      "b2d2072545075617a81e84dd80ff3dc47016121b70e57bf2c5c104cf3069f766"
+    ],
+    "nuage-metro/examples/blank_deployment/nsgvs.yml": [
+      "metroae",
+      "static",
+      "a4dec5dd3df040c56a538b962a36c9e189d52dbb785b51b7fea96952b911c638"
+    ],
+    "nuage-metro/examples/blank_deployment/upgrade.yml": [
+      "metroae",
+      "static",
+      "247de32e6b6a2cb3a57fa1df91b3255b692bb06c0a9537c1cdeb11ff1ad4e572"
+    ],
+    "nuage-metro/examples/blank_deployment/vcins.yml": [
+      "metroae",
+      "static",
+      "ada70fdf053f9f4442a54204c42b37f164f653f6dd9608e7b9af2c3d91941a24"
+    ],
+    "nuage-metro/examples/blank_deployment/vnsutils.yml": [
+      "metroae",
+      "static",
+      "ce8ffcac3679c6418f34ac93caf037d487b57f28593e6a8b393963d13eb188eb"
+    ],
+    "nuage-metro/examples/blank_deployment/vrss.yml": [
+      "metroae",
+      "static",
+      "4e28980f167e9199b8513b71fca004df931ccae5880b27789f321c61db8ca721"
+    ],
+    "nuage-metro/examples/blank_deployment/vscs.yml": [
+      "metroae",
+      "static",
+      "1c55d12ae44fcdb7e232da3fee948b0ed5c6180e1a572edfd085b7a893b83011"
+    ],
+    "nuage-metro/examples/blank_deployment/vsds.yml": [
+      "metroae",
+      "static",
+      "ead357571da148c2020cf4b9ecd03cb2a88789e6fe9eca7c6768156b446d2f51"
+    ],
+    "nuage-metro/examples/blank_deployment/vstats.yml": [
+      "metroae",
+      "static",
+      "81d6f3fcdf0ec81dad264878afefd4e2f468609a59302fc7abc84711d0d230a9"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/common.yml": [
+      "metroae",
+      "static",
+      "547b134c7ae35fbf72a97a044ff956311ce2c5fc94b41d1f6be4d2e14769e628"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/deployment.yml": [
+      "metroae",
+      "static",
+      "fbc446e553c53f0353cf194454647c34f22707e305a0964f69a151e9c0203be7"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/vrss.yml": [
+      "metroae",
+      "static",
+      "0853e051996324638f45ac454ea71ed80286bc0f6a14eab4ab5fbbfc31a89489"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/vscs.yml": [
+      "metroae",
+      "static",
+      "00da0cf4a3e550ab46836701f753a3f624c72c7e0c7f12acdbfe6c5392ae05d4"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/vsds.yml": [
+      "metroae",
+      "static",
+      "97f34f24c75fd78e2d360b3e337c2edf3a4abe3d2d59762db2f93de5e3025842"
+    ],
+    "nuage-metro/examples/kvm_datacenter_install/vstats.yml": [
+      "metroae",
+      "static",
+      "ad0113bb58d2077875acea89b5c3998b0dffc16496d2f369eae14131a7339b38"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/common.yml": [
+      "metroae",
+      "static",
+      "547b134c7ae35fbf72a97a044ff956311ce2c5fc94b41d1f6be4d2e14769e628"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/deployment.yml": [
+      "metroae",
+      "static",
+      "4ce888036135477fc70738573f0ceffddb86fe2e9ef25229fc02440794929347"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/vnsutils.yml": [
+      "metroae",
+      "static",
+      "e2df132362064e9bb0485108c426be7133e13604b93c0a872826dba1e4fc8f55"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/vscs.yml": [
+      "metroae",
+      "static",
+      "cfc441852d739653f4464320229dd7018ecb553e9229d455befc90f97baa2bcb"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/vsds.yml": [
+      "metroae",
+      "static",
+      "97f34f24c75fd78e2d360b3e337c2edf3a4abe3d2d59762db2f93de5e3025842"
+    ],
+    "nuage-metro/examples/kvm_sdwan_install/vstats.yml": [
+      "metroae",
+      "static",
+      "ad0113bb58d2077875acea89b5c3998b0dffc16496d2f369eae14131a7339b38"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/common.yml": [
+      "metroae",
+      "static",
+      "547b134c7ae35fbf72a97a044ff956311ce2c5fc94b41d1f6be4d2e14769e628"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/credentials.yml": [
+      "metroae",
+      "static",
+      "b1dbeed611e3e71d8b953d1ee4c5fc5889f9813bfb108cc9150ac3c97d404b58"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/deployment.yml": [
+      "metroae",
+      "static",
+      "6967938ec621034eff76bb28fadfa3771aced77e03164ba3a30edaf33a56daf6"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/upgrade.yml": [
+      "metroae",
+      "static",
+      "dc58321733c3ff5065a5ceb7342d65f836a9ec47b2ff8b29dabc3254309b9d00"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/vscs.yml": [
+      "metroae",
+      "static",
+      "5b2e630801b43515cae000e6f19c874448e95d4647cb41a59d99f55e9a8efe90"
+    ],
+    "nuage-metro/examples/kvm_vsc_upgrade/vsds.yml": [
+      "metroae",
+      "static",
+      "cd97a610ae600981db118b93d5f88b9dc0b38942842d42b74f4983e824a7f84c"
+    ],
+    "nuage-metro/examples/kvm_vsd_install/common.yml": [
+      "metroae",
+      "static",
+      "49746b239de347e870628d4c195a751ff56a8e100b05fa236f139d8ef5b9176b"
+    ],
+    "nuage-metro/examples/kvm_vsd_install/deployment.yml": [
+      "metroae",
+      "static",
+      "19554207bad087be7c836224a5ff79c06c18fa72c5263ae192185c27cf22a000"
+    ],
+    "nuage-metro/examples/kvm_vsd_install/vsds.yml": [
+      "metroae",
+      "static",
+      "fa0bd8a929a08a8f75e41be6bf60036564d721257486daa3aaedfab99e3fa2c9"
+    ],
+    "nuage-metro/examples/openstack_install/common.yml": [
+      "metroae",
+      "static",
+      "6a48f58f14291becb253f82f3a29e1ad6bd946a7a96db21afc14c4c3ccc34663"
+    ],
+    "nuage-metro/examples/openstack_install/credentials.yml": [
+      "metroae",
+      "static",
+      "73b45b125917bb46d27ef31a8b6f623779b45c015b60ec4701b10caf464f65c1"
+    ],
+    "nuage-metro/examples/openstack_install/vscs.yml": [
+      "metroae",
+      "static",
+      "fd569961534e00fb227fe4f4fdd34b0fc2fc68ccf4c8aba2fe02bba2f301ce62"
+    ],
+    "nuage-metro/examples/openstack_install/vsds.yml": [
+      "metroae",
+      "static",
+      "2cf7594e1dfe77fcfa797c8d2e7686695462a56c6b523254351696b76b6be99d"
+    ],
+    "nuage-metro/examples/openstack_install/vstats.yml": [
+      "metroae",
+      "static",
+      "f8f18da0e3bc2d6730bbea11a5d5570d3aef5c89a80a289c85c8f7bd638c84ca"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/common.yml": [
+      "metroae",
+      "static",
+      "66db52e85448ace757d8837109ba50790a4b5b6fc106ac403f9c30ac99384d21"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/credentials.yml": [
+      "metroae",
+      "static",
+      "90449700cd244758b625cf3d5339d47cd6955ada41ac362ae9e576cf9ed9febf"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/deployment.yml": [
+      "metroae",
+      "static",
+      "cac9e46a0fb7f5cea12ae55f7a4d2532aa631b5bb3c30ddf70fde3b88f646f56"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/upgrade.yml": [
+      "metroae",
+      "static",
+      "018575d75bc8aadcddea5583deb1803516d805aaf862d97fb12f38354c639ed3"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/vrss.yml": [
+      "metroae",
+      "static",
+      "0853e051996324638f45ac454ea71ed80286bc0f6a14eab4ab5fbbfc31a89489"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/vscs.yml": [
+      "metroae",
+      "static",
+      "5b2e630801b43515cae000e6f19c874448e95d4647cb41a59d99f55e9a8efe90"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/vsds.yml": [
+      "metroae",
+      "static",
+      "cd97a610ae600981db118b93d5f88b9dc0b38942842d42b74f4983e824a7f84c"
+    ],
+    "nuage-metro/examples/upgrade_datacenter_vcenter/vstats.yml": [
+      "metroae",
+      "static",
+      "c86fe4ecf09c09df1f91ba3629e434aa21f71c08fabf55234bd67cf968ec600d"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/common.yml": [
+      "metroae",
+      "static",
+      "66db52e85448ace757d8837109ba50790a4b5b6fc106ac403f9c30ac99384d21"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/credentials.yml": [
+      "metroae",
+      "static",
+      "90449700cd244758b625cf3d5339d47cd6955ada41ac362ae9e576cf9ed9febf"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/deployment.yml": [
+      "metroae",
+      "static",
+      "bc464b2884487112a6f18a09ebf8837f58eb7ff91e66d9a9e4a3f5f234a079e6"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/vrss.yml": [
+      "metroae",
+      "static",
+      "0853e051996324638f45ac454ea71ed80286bc0f6a14eab4ab5fbbfc31a89489"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/vscs.yml": [
+      "metroae",
+      "static",
+      "5b2e630801b43515cae000e6f19c874448e95d4647cb41a59d99f55e9a8efe90"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/vsds.yml": [
+      "metroae",
+      "static",
+      "cd97a610ae600981db118b93d5f88b9dc0b38942842d42b74f4983e824a7f84c"
+    ],
+    "nuage-metro/examples/vcenter_datacenter_install/vstats.yml": [
+      "metroae",
+      "static",
+      "c86fe4ecf09c09df1f91ba3629e434aa21f71c08fabf55234bd67cf968ec600d"
+    ],
+    "nuage-metro/generate_example_from_schema.py": [
+      "metroae",
+      "static",
+      "da9e351d2546336b3115aabbe1b6e9cec0659efc17e37eeb87c46cfc99cdabcb"
+    ],
+    "nuage-metro/juju_charms/vsc1.yaml": [
+      "metroae",
+      "static",
+      "71f3f72d12a12e7347aac0ce56746d4280818d9531cfa79d0cc5d0f9c32fdf21"
+    ],
+    "nuage-metro/metro-setup.sh": [
+      "metroae",
+      "static",
+      "5ef043864efa9f7257b48db9a7c431248ee9340c4f3cbe9f0ea6f026140c6838"
+    ],
+    "nuage-metro/metroae": [
+      "metroae",
+      "static",
+      "bd3c53b49cc03e37a3c85f383e5dd3865e4c910a464542d78d302ccaf440a89e"
+    ],
+    "nuage-metro/nuage-unzip.sh": [
+      "metroae",
+      "static",
+      "4d0e0a4bb52e81e0ca8ce47d2625b137e6544c89ac37b7b1a5b278c484ab104d"
+    ],
+    "nuage-metro/pip_requirements.txt": [
+      "metroae",
+      "static",
+      "910515f56afc37c72818562a14f6dc714e5fbdd67b2d79965a916b11b6896974"
+    ],
+    "nuage-metro/schemas/common.json": [
+      "metroae",
+      "static",
+      "34a23adce813329569120ba6ceffd92f4da75526eb662f5cd0fb96c7c5a77836"
+    ],
+    "nuage-metro/schemas/credentials.json": [
+      "metroae",
+      "static",
+      "2072d886ef925b6915d2922e1d88fb9e508f673887cd6aa5b55726d36ddd53e2"
+    ],
+    "nuage-metro/schemas/deployment.json": [
+      "metroae",
+      "static",
+      "9a0e981393eba91b5ac89732ea7bc61073f0871ed4e8ef7be0aec575d5733056"
+    ],
+    "nuage-metro/schemas/nsgv_bootstrap.json": [
+      "metroae",
+      "static",
+      "5a660a97b4a2747ec06c121963bdea85d114462034b0aa97c566f4e914913325"
+    ],
+    "nuage-metro/schemas/nsgvs.json": [
+      "metroae",
+      "static",
+      "e74186552c3baabfff781a0af868112d3670a53d0bc54d7f039257874dde020b"
+    ],
+    "nuage-metro/schemas/upgrade.json": [
+      "metroae",
+      "static",
+      "0aef7c20c47ffd609c755cea10eabbebebb06141a6fcc99f6a87ace1331cc6d2"
+    ],
+    "nuage-metro/schemas/vcins.json": [
+      "metroae",
+      "static",
+      "695182fb98d6363769452f0d2d51a98da9e13462ee18d0c848d8ec29c8c19fb2"
+    ],
+    "nuage-metro/schemas/vnsutils.json": [
+      "metroae",
+      "static",
+      "d9ca548dab0986070ca42adafbc7560864e5bbe9ae24450b7589e6abc6a97fa9"
+    ],
+    "nuage-metro/schemas/vrss.json": [
+      "metroae",
+      "static",
+      "bab2f4e351b3e84952916f5ad546cbe77e304fb8f16ef5257fd053ad094ce2c5"
+    ],
+    "nuage-metro/schemas/vscs.json": [
+      "metroae",
+      "static",
+      "26f24c97b0874e3d893dcc1cfb6f4c8e9d6022cacc4fe1fd649ab51f32f6ee0a"
+    ],
+    "nuage-metro/schemas/vsds.json": [
+      "metroae",
+      "static",
+      "22e7da0d915209dcf31c44ed421cf99add42cd7a904b30ea3eb4f4a890ed4078"
+    ],
+    "nuage-metro/schemas/vstats.json": [
+      "metroae",
+      "static",
+      "ccd5d5696ff428f76918424c18c80521822ced991d4069e4955ae392efa40fa2"
+    ],
+    "nuage-metro/src/callback_plugins/report_failures.py": [
+      "metroae",
+      "static",
+      "5e6727d7bd5106d6f769553c5e723cfe226c583b715eaf00790e38f2606b51ee"
+    ],
+    "nuage-metro/src/deployment_templates/common.j2": [
+      "metroae",
+      "static",
+      "c7476dfb307e4cd0db1c20c9f385dc12d3ca68c11f0c14215a5b1eaaec4ad341"
+    ],
+    "nuage-metro/src/deployment_templates/credentials.j2": [
+      "metroae",
+      "static",
+      "8c314d90ca53cca5a62f99e6cd137403a0f874c73e8b5de2549f2b96ec4174dd"
+    ],
+    "nuage-metro/src/deployment_templates/deployment.j2": [
+      "metroae",
+      "static",
+      "1659f5e4a319b674075f303cf8042544932605bf10b009af12338a79e68513fa"
+    ],
+    "nuage-metro/src/deployment_templates/nsgv_bootstrap.j2": [
+      "metroae",
+      "static",
+      "122f76de211cf5f02516a3d7942bc6d4af46f5459bd9117fdcb45984b865aebc"
+    ],
+    "nuage-metro/src/deployment_templates/nsgvs.j2": [
+      "metroae",
+      "static",
+      "047c097b0a22b42a0f5a53b07aff78a422376cec4a21a2fde58a1d5149cbff25"
+    ],
+    "nuage-metro/src/deployment_templates/upgrade.j2": [
+      "metroae",
+      "static",
+      "28a42dbe40458549156a1178b5cdf83fcd0330334106322cc09b15633005579b"
+    ],
+    "nuage-metro/src/deployment_templates/vcins.j2": [
+      "metroae",
+      "static",
+      "51fc905a3e6ff5adda09c39c0ab3587b2cd39d0c687af962c5b3d1e95d938068"
+    ],
+    "nuage-metro/src/deployment_templates/vnsutils.j2": [
+      "metroae",
+      "static",
+      "3fb2baa96cc9ff87822a7558d8c105e6e49913beaa9fda80dec1508f0279e8f0"
+    ],
+    "nuage-metro/src/deployment_templates/vrss.j2": [
+      "metroae",
+      "static",
+      "2b495101fe44634e2caed76add7ee19f31fc19f82863507b09acba6fee5ec6d7"
+    ],
+    "nuage-metro/src/deployment_templates/vscs.j2": [
+      "metroae",
+      "static",
+      "65d8d6cde3bb0aecb5fd0381b8b86fc9f11f2bbad14914dce02950e04bc8c70e"
+    ],
+    "nuage-metro/src/deployment_templates/vsds.j2": [
+      "metroae",
+      "static",
+      "6b28d31022046d7c952916fd3534198898e0e18d124a473c59d8cd598b526e53"
+    ],
+    "nuage-metro/src/deployment_templates/vstats.j2": [
+      "metroae",
+      "static",
+      "9a5d72ee87d508690f454caaec9625d68836eabe7a8a40a4f7fd14b702d27358"
+    ],
+    "nuage-metro/src/filter_plugins/decluster_filters.py": [
+      "metroae",
+      "static",
+      "aa82b19a052736afb3fd373a4d0b60812def492f5de25a36021e1139fa20421b"
+    ],
+    "nuage-metro/src/filter_plugins/os.py": [
+      "metroae",
+      "static",
+      "67b4781d4bdb645fe63acea1e08b733fb9e3663242ef5a55e434a8c74b6f1d0d"
+    ],
+    "nuage-metro/src/filter_plugins/sros_filters.py": [
+      "metroae",
+      "static",
+      "f84444cffb7f852887f99da00c508a827d18a04b7ca16cd1c5f46377daa8f1e5"
+    ],
+    "nuage-metro/src/filter_plugins/vsc_filters.py": [
+      "metroae",
+      "static",
+      "bc97e855eae2460bc8de178af20ea431bc1b01f4ef1250eeebe1eb83efeed84d"
+    ],
+    "nuage-metro/src/filter_plugins/vstat_filters.py": [
+      "metroae",
+      "static",
+      "1df8bec873ebc713101701706134188034ceeff6c77ee2bb520e6b497f1b304a"
+    ],
+    "nuage-metro/src/generate_all_from_schemas.sh": [
+      "metroae",
+      "static",
+      "c7524549ec7d2997157aa7aa82c59babd7c456750a8d8d7e627d9f9bcd53248d"
+    ],
+    "nuage-metro/src/inventory/hosts": [
+      "metroae",
+      "static",
+      "fa57fdebe3bbbcca807ce5c3adbe05110b510106069ab754062ecadae3833abb"
+    ],
+    "nuage-metro/src/library/check_vsd_license_validity.py": [
+      "metroae",
+      "static",
+      "0ae989840fa33d058dc684f0ab99fae2ec7ce4ade305a879de52e7fcc91e5c64"
+    ],
+    "nuage-metro/src/library/config_vsd_system.py": [
+      "metroae",
+      "static",
+      "4739a0be3dbeb338071be9aa7f2c06ef0e8030f120e8199d29828d08a432471f"
+    ],
+    "nuage-metro/src/library/create_snapshot.py": [
+      "metroae",
+      "static",
+      "22abd1b457a5e7e9176bc92fda7c9ecb41a67832ca0e8ff1d0bf1a773fa1c22c"
+    ],
+    "nuage-metro/src/library/create_zfb_profile.py": [
+      "metroae",
+      "static",
+      "dc0b57b94d6488bb2f3679184d8604112e7df493dafbf5d0517946f60715609d"
+    ],
+    "nuage-metro/src/library/download_image.py": [
+      "metroae",
+      "static",
+      "ccb5fc4195265e219953d1faba1b0b55934bcf469d7303ede17fd77cbaef2f85"
+    ],
+    "nuage-metro/src/library/monit_waitfor_service.py": [
+      "metroae",
+      "static",
+      "8ebbd615cffa487b6438f39ea57409ddc1b6e41f1764373a5de0a4ad653a6562"
+    ],
+    "nuage-metro/src/library/network_info.py": [
+      "metroae",
+      "static",
+      "6cbc5a970aef6290ea88b9f3173b772356d2ab35ebf18c26954e494b6f265559"
+    ],
+    "nuage-metro/src/library/nuage_append.py": [
+      "metroae",
+      "static",
+      "0f948aca72a554972752bf93934604502f4079d13fca9eb8baf67e7253d478d6"
+    ],
+    "nuage-metro/src/library/nuage_vspk.py": [
+      "metroae",
+      "static",
+      "3e33c5fa539de235be6ca3b13f2b4da1a260fcb6e10ced5328a3dd51d58abc74"
+    ],
+    "nuage-metro/src/library/os_server_actions.py": [
+      "metroae",
+      "static",
+      "66e611dc6430eab22e0104f169dd4a8eadb74820e21508ffb102c02eb45b8968"
+    ],
+    "nuage-metro/src/library/os_stack.py": [
+      "metroae",
+      "static",
+      "65e9f4a4d1c12ef0e49d9ea34a0e36772c4abd057f4b047b74fba8583cd2f9af"
+    ],
+    "nuage-metro/src/library/read_yaml_with_vault.py": [
+      "metroae",
+      "static",
+      "8c0c51d7f81ba3d062ca142e2e7ccdfeedb187fa77bbd302663daa9e56da52a1"
+    ],
+    "nuage-metro/src/library/validate_against_schema.py": [
+      "metroae",
+      "static",
+      "ab38e2112d199b736d7c32bb09b04aac24407d023789963994ccf469a997eec9"
+    ],
+    "nuage-metro/src/library/vmware_autostart.py": [
+      "metroae",
+      "static",
+      "1eba1a862f34920a26432b536c2a887e9cbe46a5adf5a664012b5c02c8fb48a6"
+    ],
+    "nuage-metro/src/library/vmware_guest_tools_wait.py": [
+      "metroae",
+      "static",
+      "0a27beb3772a65faf6289d80e775a4e6d5bfd138e0629574325c816eb17c7551"
+    ],
+    "nuage-metro/src/library/vmware_nic_connection.py": [
+      "metroae",
+      "static",
+      "9070e1a8a58bf0dfdc8e698a045a09e26c8abec74285452e591a7b0f3431203e"
+    ],
+    "nuage-metro/src/library/vsc_command.py": [
+      "metroae",
+      "static",
+      "23da16eefe4792261bfdfb8bbaf689e2e57edd78b6c5e28c8ed6b0919cc3657c"
+    ],
+    "nuage-metro/src/library/vsd_maintainance.py": [
+      "metroae",
+      "static",
+      "0f027e2e0825e3cd8d2580fa9d8897d7f40435014271dedf6f822a3552560c35"
+    ],
+    "nuage-metro/src/library/vsd_monit.py": [
+      "metroae",
+      "static",
+      "0438022c56b4a43873397dcfe46a6ab9a0b0f1a81d08b709fcb12d93dc906d07"
+    ],
+    "nuage-metro/src/library/yaml_checker.py": [
+      "metroae",
+      "static",
+      "022baf3a9272131acc824a94f58b8fee70a88565137acf251bc1d99b80ba2693"
+    ],
+    "nuage-metro/src/playbooks/build.yml": [
+      "metroae",
+      "static",
+      "b064fccba53652cddcea470d7e8ef8d09e757213e24ce39e65b827e47be00fe4"
+    ],
+    "nuage-metro/src/playbooks/nuage_unzip.yml": [
+      "metroae",
+      "static",
+      "78250c2dd14b2df92eafda13d8a1fb6605554c64abc72966f203e8f76af05ec2"
+    ],
+    "nuage-metro/src/playbooks/reset_build.yml": [
+      "metroae",
+      "static",
+      "6f2c6fc86278d337612980cff9738b40e9c5ecfa5914b55000f666ee03b2d31b"
+    ],
+    "nuage-metro/src/playbooks/with_build/brand_vsd.yml": [
+      "metroae",
+      "static",
+      "d9aedb134b2394b206372ac946b6045434b15a2d152bcaac48cf0a9655503e7b"
+    ],
+    "nuage-metro/src/playbooks/with_build/copy_qcow2_files.yml": [
+      "metroae",
+      "static",
+      "1dcd7e1df1687ffb8cb9edf2f4e15094e2b2669a43de3a6846b33bfbf0e82f1d"
+    ],
+    "nuage-metro/src/playbooks/with_build/destroy_everything.yml": [
+      "metroae",
+      "static",
+      "565e7fbb922a134c3149778307b890db5b39a25eedd9128885a11ed50907b9a3"
+    ],
+    "nuage-metro/src/playbooks/with_build/dns_deploy.yml": [
+      "metroae",
+      "static",
+      "1d63871367e7fe6bafb564aedfe42db94b96897b70dc071a7abf37f04c6bb0c1"
+    ],
+    "nuage-metro/src/playbooks/with_build/dns_destroy.yml": [
+      "metroae",
+      "static",
+      "84a20d64ff8bafcde4c32bcbb7ed315ed9e5017541d20f0925047b49b7f694bd"
+    ],
+    "nuage-metro/src/playbooks/with_build/dns_postdeploy.yml": [
+      "metroae",
+      "static",
+      "13450acc3642ee9a161bd6f0f99a4bd756010786e84544e21bf8199cc2e91426"
+    ],
+    "nuage-metro/src/playbooks/with_build/dns_predeploy.yml": [
+      "metroae",
+      "static",
+      "8679bd1113e9e7fcfd5b3603fad0f720432e0ebe92af0d8efea1a2150c90a503"
+    ],
+    "nuage-metro/src/playbooks/with_build/gvm_destroy.yml": [
+      "metroae",
+      "static",
+      "195592fe8e62c873b6cecbfe642fd1c8fba53ed8a0985347946225b6240a0e1d"
+    ],
+    "nuage-metro/src/playbooks/with_build/gvm_predeploy.yml": [
+      "metroae",
+      "static",
+      "01068e5d8b7d088aeafff465a3be04ffc8772a28186544c70628729c478d90cc"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_dns.yml": [
+      "metroae",
+      "static",
+      "10b51a3d61a0a9192d10af4f42718eb520db40f7f3f6fa72ad6387b7e8f6d0d5"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_everything.yml": [
+      "metroae",
+      "static",
+      "a8200d001756ee04006bcf0006ff63f2843162d16cf1286c08e0e1303dfaa577"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_nsgvs.yml": [
+      "metroae",
+      "static",
+      "e869e46790f09640c7022ea7997e721977f851c99891fb4a905363499bb0484b"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vcins.yml": [
+      "metroae",
+      "static",
+      "b53552af424fb079a00f4aa01be51a1f957ac8c2c78f77b5b9d68334dd87eda6"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vcs.yml": [
+      "metroae",
+      "static",
+      "03aa6d99d8cec8752e1477d74f965cc9b246d342e94e9768d8eb6c31763de09d"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vns.yml": [
+      "metroae",
+      "static",
+      "3d74c179832a8f978e7d38e703c366ece7eb716f0552ee6b19c0bf5507f43c9a"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vns_on_nuagex.yml": [
+      "metroae",
+      "static",
+      "ca0893d4e5e7a24828c733e642b63f8b3aeb73a78f1e73570f97cd3f10e0cd0b"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vnsutils.yml": [
+      "metroae",
+      "static",
+      "091ce593332f95349f26b5f9247e06f8564d39fde298627aeb7bb469ab4bc64a"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vrss.yml": [
+      "metroae",
+      "static",
+      "96d56642fd0046cb7c5a6f2608f64bd1a89477233cb3a4179b29d28dbb030e33"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vscs.yml": [
+      "metroae",
+      "static",
+      "2e885143434dff0c2c12edc4eb58787b209fd0bb60d2e8ba97ce4ab70719b2c6"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vsds.yml": [
+      "metroae",
+      "static",
+      "e48ec8d947be1ca1f92898debe3d5bcc98c7abd8bd740556c84ce423fd4ba2e7"
+    ],
+    "nuage-metro/src/playbooks/with_build/install_vstats.yml": [
+      "metroae",
+      "static",
+      "ec899ebadedacfdd7d7be198be3edc89e07c40d0539c3d528f2ff2dd9dcdea1f"
+    ],
+    "nuage-metro/src/playbooks/with_build/mesos_deploy.yml": [
+      "metroae",
+      "static",
+      "d38c871cc0b374f4d9d4edd62aee976587d7657dad4e4e2d8ea812e91e14ecd3"
+    ],
+    "nuage-metro/src/playbooks/with_build/nsgv_destroy.yml": [
+      "metroae",
+      "static",
+      "19cf01140645e893b45ca1a9154d71113fa661b91485baa683d553d60b2bd9d9"
+    ],
+    "nuage-metro/src/playbooks/with_build/nsgv_predeploy.yml": [
+      "metroae",
+      "static",
+      "d1a0d989e3414a610935b4e29b9cecdff39a8b660ce7a0d11e54604d55901509"
+    ],
+    "nuage-metro/src/playbooks/with_build/nuage_health.yml": [
+      "metroae",
+      "static",
+      "ec68d4391a86a84b9aae94f55f0d8e9a6e1d6f35221bb44d5a8954139778eeb5"
+    ],
+    "nuage-metro/src/playbooks/with_build/os_vsd_osc_integration.yml": [
+      "metroae",
+      "static",
+      "3802e56886cb97dd0a1a879f4b3266cb1bf44185350305dbe32bfebecb8ff805"
+    ],
+    "nuage-metro/src/playbooks/with_build/stcv_build_vars.yml": [
+      "metroae",
+      "static",
+      "41c2d9967fd1bce175c99fcc569eecfe2c0e006daeac3d5fa081a87d682264f1"
+    ],
+    "nuage-metro/src/playbooks/with_build/stcv_postdeploy.yml": [
+      "metroae",
+      "static",
+      "f13d9e1370c9b8e1e14e6b614230f27eeb735724502135cb27170f072e1ec889"
+    ],
+    "nuage-metro/src/playbooks/with_build/stcv_predeploy.yml": [
+      "metroae",
+      "static",
+      "4d5e19c24344d90e13cd3af3658822d1e464df76599d0cd4d6f284ef452f2c61"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_after_vrs.yml": [
+      "metroae",
+      "static",
+      "98d4296765419a7960e95d44d26c2ec8349e12ac5677fb2253b362d3661cccd8"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_before_vrs.yml": [
+      "metroae",
+      "static",
+      "aac91c31cba7e9ec1137a604856cb9e5c03cf9ef54a92f957cb5931ba4622ecb"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_everything.yml": [
+      "metroae",
+      "static",
+      "2c4ce686782b5a6c155c15a908535938d7a9d5266667eacd864281e5472fe509"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_vscs.yml": [
+      "metroae",
+      "static",
+      "5fa869c48482c4d6592f6f590808f71c5e2b8335c99f69147769724b2f2672b0"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_vscs_after_vrs.yml": [
+      "metroae",
+      "static",
+      "dd7db1419a0a99ab7d50f64e5c6e69bbe4693fe595f53cf8c44c7990e69d89df"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_vscs_before_vrs.yml": [
+      "metroae",
+      "static",
+      "a62a87172de5417c60bf4d3b98323da2d015166d2e9dbb4342f532073fcbc6e7"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_vsds.yml": [
+      "metroae",
+      "static",
+      "b68d257cc294b091a6a9beb03d5c416fe94fbd49c750c2dcf3c56a25a65a8d09"
+    ],
+    "nuage-metro/src/playbooks/with_build/upgrade_vstats.yml": [
+      "metroae",
+      "static",
+      "8fb382da533bf5ed021caee5d8186cb39f247d8ba88f4d7ed26530b0115ce55a"
+    ],
+    "nuage-metro/src/playbooks/with_build/util_setup.yml": [
+      "metroae",
+      "static",
+      "a8c99ad4b1ab0515f63e3952a7cf037a767dc138f31f8b7ed6033f0b609c30a2"
+    ],
+    "nuage-metro/src/playbooks/with_build/vcin_deploy.yml": [
+      "metroae",
+      "static",
+      "03fc82be3fd602538bc129d56d7e96fa776344fe16325c70e76d6c670e9d50a1"
+    ],
+    "nuage-metro/src/playbooks/with_build/vcin_destroy.yml": [
+      "metroae",
+      "static",
+      "a2a3e6b3ade87e3a3000bc1ac17ea2d54520f44def3c40d9e83513dbddf1d6b6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vcin_health.yml": [
+      "metroae",
+      "static",
+      "6c12c41b1f69d5a118fce9875c019d104857dd4e70e5ee5a2b79b6853308e2c2"
+    ],
+    "nuage-metro/src/playbooks/with_build/vcin_predeploy.yml": [
+      "metroae",
+      "static",
+      "7a21e3cf1cbf794eb88b785524e177dff51fe4259cb54b2e6d06a047a32d3a84"
+    ],
+    "nuage-metro/src/playbooks/with_build/vnsutil_deploy.yml": [
+      "metroae",
+      "static",
+      "00ff039a0b5bc7bbfc314e9137252775f4f8a6202e2d1e17e5292415ba2db067"
+    ],
+    "nuage-metro/src/playbooks/with_build/vnsutil_destroy.yml": [
+      "metroae",
+      "static",
+      "f764301f9f5720538114f5c1681148825d3f2c1ea3808630efaea8a6701a3338"
+    ],
+    "nuage-metro/src/playbooks/with_build/vnsutil_postdeploy.yml": [
+      "metroae",
+      "static",
+      "abefdbadb7d04646dbf7256dd7ba363d6e856c8387e32c4f1c16417570126d60"
+    ],
+    "nuage-metro/src/playbooks/with_build/vnsutil_predeploy.yml": [
+      "metroae",
+      "static",
+      "945c2373b8910f73aa7e67bcd73c6ed167a09d81f5ef6de4e69a496ba41a95c3"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_deploy.yml": [
+      "metroae",
+      "static",
+      "84fc8c0a12c58207c22ba07b52f3b7a32dd49cad1448e614ad1f4424ef77b415"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_destroy.yml": [
+      "metroae",
+      "static",
+      "5e32dcdb027f2f0c0e937f3a1e4b5c3ee3deef398cbd2fe8e4191cbb47b44121"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_health.yml": [
+      "metroae",
+      "static",
+      "62532474c7e06500022fb02a1143dace080d837e177019f640d9f3272d98edcd"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_oscompute_integration.yml": [
+      "metroae",
+      "static",
+      "76b2a5fbfba7d383ce64fa75c57dda0980cfa8dc65bd0d90a64e6872f1e3648c"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_postdeploy.yml": [
+      "metroae",
+      "static",
+      "cabbfb15c7caf4b773515caff6a5c66c2a97e4b37a3f014ad6b37392b3d93ef1"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_predeploy.yml": [
+      "metroae",
+      "static",
+      "6e1027a8b04fced33743eb167301ea9359ea434111ec27bce450d0462ac030b0"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_upgrade.yml": [
+      "metroae",
+      "static",
+      "71720a859de49bd862a46a0169cec21c8baf040f204363775c3df91d4747d1ed"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_vm_deploy.yml": [
+      "metroae",
+      "static",
+      "53d764cd4ca3d2df3bbc9c59c34203bb509ebd8d03eb062bbcf63187454d0411"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_vm_destroy.yml": [
+      "metroae",
+      "static",
+      "7b7911d5b7c6a87e3cc54fa4c1f8f13fa058b9940c63a2110ae235c42a083340"
+    ],
+    "nuage-metro/src/playbooks/with_build/vrs_vm_predeploy.yml": [
+      "metroae",
+      "static",
+      "39319b17d645bb7517ffbbd6b5b38779c95aa1016ea6c7849ca9e66e0d9e2c35"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_backup.yml": [
+      "metroae",
+      "static",
+      "de7d3691efb418178da8e84e9e7e3ab2a4f5d16a759cb19dc4ca8b6cf7558fd7"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_deploy.yml": [
+      "metroae",
+      "static",
+      "38a24af1e263d9087d6390827f6909d65d5c6072398f9b436f7211b51587333a"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_destroy.yml": [
+      "metroae",
+      "static",
+      "9bdee3d4cd2a46c55e7365ac14cc2dc549d0d5bbe83cb793b3a87966015440d1"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_backup_and_prep_1.yml": [
+      "metroae",
+      "static",
+      "a96f12796c20d6f0bd5d255ca4722180acb8618b6cf2e1e8f7b52b498789de3c"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_backup_and_prep_2.yml": [
+      "metroae",
+      "static",
+      "8e9af7500a42e0e7743877ba87114098eceeccc72936a4b55c6349857026e507"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_deploy_1.yml": [
+      "metroae",
+      "static",
+      "7de55d800ea21bdb2fcfba081ef1b4daaec45394df09509c5cb6550fc2280854"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_deploy_2.yml": [
+      "metroae",
+      "static",
+      "b213323765dd042506eceef7f949afbe7c1395eb41d3cfdc0bd73e22ddc86f84"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_postdeploy_1.yml": [
+      "metroae",
+      "static",
+      "baac0980ea9f92e24ddf37ed71824496d487c250f948c73eb62a3d5fd8243002"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_ha_upgrade_postdeploy_2.yml": [
+      "metroae",
+      "static",
+      "221c88ecd15a5b10949465a2d7405b72eedcc1ff7b67068a3a3a21f7dc063309"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_health.yml": [
+      "metroae",
+      "static",
+      "0462c162574444d81118729b7048412099204e8eafbdfd78d7f83f414f9ebd38"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_postdeploy.yml": [
+      "metroae",
+      "static",
+      "f7e94caee577d6f21aab06dc47f817376b2c0336cb0a876c998a45f845bf70aa"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_predeploy.yml": [
+      "metroae",
+      "static",
+      "91b99431d54abfe8b017e2f7cb24356a8801d8c5c4921c440495276a50ef8172"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_sa_upgrade_backup_and_prep.yml": [
+      "metroae",
+      "static",
+      "9ded457678d9452c32e6ac6ed78ad52bb595be6e4e4b778e84e28093d7ca066b"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_sa_upgrade_deploy.yml": [
+      "metroae",
+      "static",
+      "76fc8466ddb977717de45b94cc03e27678496117d63e110aa398547e72a477b2"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_sa_upgrade_postdeploy.yml": [
+      "metroae",
+      "static",
+      "cbf8586f1097af9575759117762033cf7910b4469ab64c9108c5c8c308cd80c6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_vns_deploy.yml": [
+      "metroae",
+      "static",
+      "a48a5b098981732f5a86b0f1146c479378d551e32569a6d1aee112eac32a90fe"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsc_vns_postdeploy.yml": [
+      "metroae",
+      "static",
+      "357cedd37d8d89da70848e90a3e90005a38b9d546b3115bb1a481e730d0739a7"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_dbbackup.yml": [
+      "metroae",
+      "static",
+      "aa76949380029444ab5bc6a25026f2721120ae9a787e8e944001b0d6bfbbed95"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_decouple.yml": [
+      "metroae",
+      "static",
+      "3bcbd6d36a5e308b315ebca5c3692984ed20ef7bf9b710b3f4314cce23a509a1"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_deploy.yml": [
+      "metroae",
+      "static",
+      "a6a494558d192dfbb7a6ce71180fa1b305af7abb270ff1fe06a7f5b61a2059d9"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_destroy.yml": [
+      "metroae",
+      "static",
+      "a1aeb2befe42e8e47c5018c661effcce84d7e58e91fd19ba79e50630a5d17f9f"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_database_backup_and_decouple.yml": [
+      "metroae",
+      "static",
+      "bc9a7c0e8492557856af91bb89242d1aa2662b061820a30484d1512888234dac"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_deploy_1.yml": [
+      "metroae",
+      "static",
+      "352cd8fd6bc358053cd913173464b7a4065c74f675e74a056fd7cdddbf6f6b8f"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_deploy_2_and_3.yml": [
+      "metroae",
+      "static",
+      "273077b79e1d3f120ef00cde2de132843fa2ac6d49aa43a96ae3811395fe1ac6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_destroy_1.yml": [
+      "metroae",
+      "static",
+      "20198c3c554780cc5a175cf627c05af80433bbb312445813dc736bfecb574b3d"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_destroy_2_and_3.yml": [
+      "metroae",
+      "static",
+      "5fecb690c53fa7f228adf8687c2699d614cd0da2287ea6d27de9c48be8cfcf8a"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_predeploy_1.yml": [
+      "metroae",
+      "static",
+      "0deb9f39f4b344dfe925c73be8e14453e535caf40859647aed902d03efa62c33"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_predeploy_2_and_3.yml": [
+      "metroae",
+      "static",
+      "97778b25c67c5dcef7c7dc4dda480aa024ed900b8f1c63df2f42254388f37bd6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_shutdown_1.yml": [
+      "metroae",
+      "static",
+      "21676e1e790d0aed78a339f29efa91ead68cccd9da1a8caa47943be1d9a200f4"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_ha_upgrade_shutdown_2_and_3.yml": [
+      "metroae",
+      "static",
+      "b5fa4746bf5ba6582c832dcafe0a6f25caf5d563e46d259f37e60f5674eca589"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_health.yml": [
+      "metroae",
+      "static",
+      "00fbcbc0c39d13497ef31a73cb114f3b9db4ac6b04f92d4d0eb10263e80b3b15"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_license.yml": [
+      "metroae",
+      "static",
+      "e413957a5c3626025aae9f6c33a61022e974a229857465dba942bc68c9f4142f"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_osc_integration.yml": [
+      "metroae",
+      "static",
+      "043e0a5554f8d55153c5c0f06e2001610481bd8f097f3067e13f31f1a5ff99bb"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_postdeploy.yml": [
+      "metroae",
+      "static",
+      "9445893978973863877c5d7f12bd5cb9cb0c0d93b0b1b1bffb53f12c29e93233"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_predeploy.yml": [
+      "metroae",
+      "static",
+      "4a463684fccdb80f423211cdccb7c629124b201762a307d32c47d0caf459a3fe"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_sa_upgrade_database_backup.yml": [
+      "metroae",
+      "static",
+      "08fe596814872411f94f30edb6c9992b8f0e6ef05a100d0066c2e3f9f6e96100"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_sa_upgrade_deploy.yml": [
+      "metroae",
+      "static",
+      "16046a7511aa6542758a0fba7d40b19bb5d1bfcdd5473810d63d9e1c76b9afd3"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_sa_upgrade_destroy.yml": [
+      "metroae",
+      "static",
+      "694f9a8fd75c67108928afda8858c5639e4abb93d9ab05f81378fecd082c6502"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_sa_upgrade_predeploy.yml": [
+      "metroae",
+      "static",
+      "e13532d0eae254dafc402f356975dd0cb764370e1520c17d386c6c30196a9ca6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_sa_upgrade_shutdown.yml": [
+      "metroae",
+      "static",
+      "0f862a3a14de976bc7e6a874aaf798413b06f1a9b1ed9dbff1aaacc0a4e5328d"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_services_stop.yml": [
+      "metroae",
+      "static",
+      "5d0441dc8b6015808505d2100452ea48d142624cc29a976417cbb5e41bf8b617"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_upgrade_complete.yml": [
+      "metroae",
+      "static",
+      "583fa1f11232cfb57d1141238d89cb8ef0c7db89e190e1335139d0c478575158"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsd_vns_postdeploy.yml": [
+      "metroae",
+      "static",
+      "69d938def77f176d1ad469710431c60c36a1fac3fe851f6e8392e3e836163654"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsp_postupgrade_health.yml": [
+      "metroae",
+      "static",
+      "7c30205ac659c554c4a6f3b79a68f7cf7bcd96f3ddfae4ea1a3ecd0e482ffa8a"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsp_preupgrade_health.yml": [
+      "metroae",
+      "static",
+      "accf653163c3582a216ec3e6c353a6cf246b74a195e8627dee28eaaeffde553c"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsp_upgrade_postdeploy.yml": [
+      "metroae",
+      "static",
+      "f9aa606f484b1bbc5baf11875ec5150dc1dc797e1f62b160134d11eccfc1af52"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsr_deploy.yml": [
+      "metroae",
+      "static",
+      "198103850d78253dd15cd965e7373b7158c362350c8ae515e9189791d468443c"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsr_destroy.yml": [
+      "metroae",
+      "static",
+      "d13f793be5d1cc84c007120a715ce9ac445e092e4587720fc4712d5b56f062d4"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsr_postdeploy.yml": [
+      "metroae",
+      "static",
+      "47f609d8b1e759081f4f4f3a07a217eaca61c6f4a9e3c0eddc7ed966ab7ee7d3"
+    ],
+    "nuage-metro/src/playbooks/with_build/vsr_predeploy.yml": [
+      "metroae",
+      "static",
+      "4bf21a28b395c3ee414f4f071f02f8344a5977156c5142b96aeb90789ea56218"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_deploy.yml": [
+      "metroae",
+      "static",
+      "c92b74007c72e47843cc33305044abd2a52c0bca8011f044c781c76e088f4fe5"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_destroy.yml": [
+      "metroae",
+      "static",
+      "10b9c98a78f2980649b2fdeb68ca3598af1efa1c6c939ace76f07529fd7a2531"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_health.yml": [
+      "metroae",
+      "static",
+      "92abbb2fa3a80c6dfa5446de6c48bcc654451090d6bbc4f4e017b2deff1c0ac9"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_postdeploy.yml": [
+      "metroae",
+      "static",
+      "2be91d7243b0c3a32d8199a446729d363495149d4d92ef487d049236ae043e2d"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_predeploy.yml": [
+      "metroae",
+      "static",
+      "4683dd9fcee283b1acaa3fda97e5c82f65d37645b35dea3c63c67662a52fedef"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_preupgrade_health.yml": [
+      "metroae",
+      "static",
+      "1c9ee9f3fb99c4a8df096dd5b0890d26fd08e403cdc27b59ccf2e87592ca8d0e"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_upgrade.yml": [
+      "metroae",
+      "static",
+      "7992e9a0c6f08530e4102d69be84b02255c02bdab6a88cdc3c5c54f85612b622"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_upgrade_check_prerequisites.yml": [
+      "metroae",
+      "static",
+      "24e8731b4ba81dbd4d18fc4099dd838aa67650b898c000b4a7dfa0672164a7a6"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_upgrade_destroy.yml": [
+      "metroae",
+      "static",
+      "223500ff15e7018766fb0f8cce10e4be266f439441014c3582f25e553d7ad1e3"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_upgrade_prep.yml": [
+      "metroae",
+      "static",
+      "a7c52a900bdbde20e876b8db6d38dad981d7abbac98f916cb4d2afe37deb19b1"
+    ],
+    "nuage-metro/src/playbooks/with_build/vstat_upgrade_wrapup.yml": [
+      "metroae",
+      "static",
+      "42ba142696dbfda2ca148374951adc2b98d2a4fb00816e5554f6043f56a48fe8"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/common.yml": [
+      "metroae",
+      "static",
+      "9921e0649c83e0f18f5258f2bcae398f109649b9999e8d20cb3dd1c97165bcaa"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/credentials.yml": [
+      "metroae",
+      "static",
+      "0ffa1aab102494d97c9eb9c1698a67134a0f0f4b134341a98b8aa5c5c6f9fd6f"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/deployment.yml": [
+      "metroae",
+      "static",
+      "0f7a637a1ded39a105608a42066f46184184acac528736bb30e92833ba115afe"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/vnsutils.yml": [
+      "metroae",
+      "static",
+      "4d77764436fd2f0fedac4d117a41f9cec4136d5cd42c52a36560fa92319a2dfc"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/vscs.yml": [
+      "metroae",
+      "static",
+      "4bce69d50a39ddb06df52467223c7a95c474d68eb949a0431a9c9e42cac8024d"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/vsds.yml": [
+      "metroae",
+      "static",
+      "a2fd7a710d3c0142ebdccbfd48fe21d7d4c3d2dc13ec798a9d1aa29ca65d91e3"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_install/vstats.yml": [
+      "metroae",
+      "static",
+      "259a33a3a720ff4d8ab4c6bfe48b88dcc361ebd8b1a7e1a6ea2b93f5ff213119"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/common.yml": [
+      "metroae",
+      "static",
+      "9921e0649c83e0f18f5258f2bcae398f109649b9999e8d20cb3dd1c97165bcaa"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/credentials.yml": [
+      "metroae",
+      "static",
+      "0ffa1aab102494d97c9eb9c1698a67134a0f0f4b134341a98b8aa5c5c6f9fd6f"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/deployment.yml": [
+      "metroae",
+      "static",
+      "b884dac52764ec22b1c397ced7c045fa20842ba483e653615cac5d2e45cbcada"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/upgrade.yml": [
+      "metroae",
+      "static",
+      "90bdb7dacef3f53de7eefade25876e296ff64bf643b90dba6bf586cb2d30087b"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/vnsutils.yml": [
+      "metroae",
+      "static",
+      "4d77764436fd2f0fedac4d117a41f9cec4136d5cd42c52a36560fa92319a2dfc"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/vscs.yml": [
+      "metroae",
+      "static",
+      "4bce69d50a39ddb06df52467223c7a95c474d68eb949a0431a9c9e42cac8024d"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/vsds.yml": [
+      "metroae",
+      "static",
+      "c94adf2faffbfa828e6cc650b1ec259516506e709713cbce2f0b49944a565c71"
+    ],
+    "nuage-metro/src/raw_example_data/aws_sdwan_upgrade/vstats.yml": [
+      "metroae",
+      "static",
+      "9ccfeb2646526753097c49e43f9e8a756d3cba5a17d00f0315c148e20ed5231a"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/common.yml": [
+      "metroae",
+      "static",
+      "9921e0649c83e0f18f5258f2bcae398f109649b9999e8d20cb3dd1c97165bcaa"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/deployment.yml": [
+      "metroae",
+      "static",
+      "6a585d931f4921c65a297d3c7c29232b086fd50481acc2f43f568da25f2a3309"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/vrss.yml": [
+      "metroae",
+      "static",
+      "cf806f23976cc93e9ca44bd4774f5e3066f69417da6a3297781f88346e756712"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/vscs.yml": [
+      "metroae",
+      "static",
+      "dbb195f80990037c0ebbfcbaa6907c78a7b565b5d6350fcfc5ed2018bcbd8b81"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/vsds.yml": [
+      "metroae",
+      "static",
+      "e29e56fd22b459c077375c67cbde0510caf3c0792b5ee0f9623e3d5321c964ee"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_datacenter_install/vstats.yml": [
+      "metroae",
+      "static",
+      "02f7b6ec14869c9c995f41c0bbafeee055b1b7136c899bca579ad17a16514db4"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/common.yml": [
+      "metroae",
+      "static",
+      "9921e0649c83e0f18f5258f2bcae398f109649b9999e8d20cb3dd1c97165bcaa"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/deployment.yml": [
+      "metroae",
+      "static",
+      "4dce74949ed0a3f6897860d2fb8140db874682c4b71d9c605f5d1be0240b5340"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/vnsutils.yml": [
+      "metroae",
+      "static",
+      "20f74474d9a2a91d23cf82d1554a71c6d06f4e5e9c19ae9f5d432056520cfd0e"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/vscs.yml": [
+      "metroae",
+      "static",
+      "e444f1a5bd6cc2c1f77bcd9af93a4095c6d92a0ee8f21138576f1ae5f28a39bb"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/vsds.yml": [
+      "metroae",
+      "static",
+      "e29e56fd22b459c077375c67cbde0510caf3c0792b5ee0f9623e3d5321c964ee"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_sdwan_install/vstats.yml": [
+      "metroae",
+      "static",
+      "02f7b6ec14869c9c995f41c0bbafeee055b1b7136c899bca579ad17a16514db4"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/common.yml": [
+      "metroae",
+      "static",
+      "9921e0649c83e0f18f5258f2bcae398f109649b9999e8d20cb3dd1c97165bcaa"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/credentials.yml": [
+      "metroae",
+      "static",
+      "3f8ff1903f8cbea7deb8fe1d1d5ac7fdf8d549221336b0504e88e7eff4be4aed"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/deployment.yml": [
+      "metroae",
+      "static",
+      "e85170b20e58f0628884eb8deadf88df18cfaf356797bc003ece046350609537"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/upgrade.yml": [
+      "metroae",
+      "static",
+      "6284a90e5c3f77c5e1f21e257c3082cbff0b2b104e9c917fe5ce61308f9da8f7"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/vscs.yml": [
+      "metroae",
+      "static",
+      "1079361afbb66d59140e4f91b2ea25bede31735c80bb7ba0f45d933a4a9d4f79"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsc_upgrade/vsds.yml": [
+      "metroae",
+      "static",
+      "0cf1b7ff9f6040d7daac5b6650713ea724cf1358f7f1b517a94dd5a9b17b8328"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsd_install/common.yml": [
+      "metroae",
+      "static",
+      "1801feb62e989cbe99408497b728eb1feaa59e510dd53ebacc5c1b236eecdd91"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsd_install/deployment.yml": [
+      "metroae",
+      "static",
+      "29ed0dc8601eab6af419a61d5fdd90bb4647849046eb4d673b2d2fb788ed808c"
+    ],
+    "nuage-metro/src/raw_example_data/kvm_vsd_install/vsds.yml": [
+      "metroae",
+      "static",
+      "31f8a5208e20e2bcb14d5af31aef0d87ea254dbef97226697cc906178bfb9f28"
+    ],
+    "nuage-metro/src/raw_example_data/openstack_install/common.yml": [
+      "metroae",
+      "static",
+      "de0027664470b46683393e1282b8dccf831da07f70d46cef4ecf9c00368aca93"
+    ],
+    "nuage-metro/src/raw_example_data/openstack_install/credentials.yml": [
+      "metroae",
+      "static",
+      "ddd8a4566ff24c0f43780319a9bbb238320f4bc191188dd0395cabdf6a3fbbca"
+    ],
+    "nuage-metro/src/raw_example_data/openstack_install/vscs.yml": [
+      "metroae",
+      "static",
+      "6366653f71a790c0a2fa1b2aa1fbc3d6486034b479d6ad855dda274706ed2753"
+    ],
+    "nuage-metro/src/raw_example_data/openstack_install/vsds.yml": [
+      "metroae",
+      "static",
+      "4168151854bccc09ad0760dee75c68605ebc6ca26ac2bf9f927666231459b106"
+    ],
+    "nuage-metro/src/raw_example_data/openstack_install/vstats.yml": [
+      "metroae",
+      "static",
+      "bddf3d926bf52cc31478f1f88811b2dc981ae466698d0b25422fdabe920ceb07"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/common.yml": [
+      "metroae",
+      "static",
+      "9775e55d660395cc102159a74f209dab0fa738cb7f038d751c249bc29a333cf7"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/credentials.yml": [
+      "metroae",
+      "static",
+      "66229de12a0a904df37fc379aad56eab610e0eef27e78b3a61adb3bbffd3602a"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/deployment.yml": [
+      "metroae",
+      "static",
+      "6f55bf554b624ca03bea720a433f5b2449adbbc01393f257fd10e90460b780f9"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/upgrade.yml": [
+      "metroae",
+      "static",
+      "90bdb7dacef3f53de7eefade25876e296ff64bf643b90dba6bf586cb2d30087b"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/vrss.yml": [
+      "metroae",
+      "static",
+      "ebe201b000ffa164c32b885c84bac87d9adc0b4696b7b5350b3fc0a1e6a6bc8d"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/vscs.yml": [
+      "metroae",
+      "static",
+      "1079361afbb66d59140e4f91b2ea25bede31735c80bb7ba0f45d933a4a9d4f79"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/vsds.yml": [
+      "metroae",
+      "static",
+      "0cf1b7ff9f6040d7daac5b6650713ea724cf1358f7f1b517a94dd5a9b17b8328"
+    ],
+    "nuage-metro/src/raw_example_data/upgrade_datacenter_vcenter/vstats.yml": [
+      "metroae",
+      "static",
+      "05c0ebc8e5c102261632a4949cf9a8965a7a6d95827ae6e7ac72e105e6ec603a"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/common.yml": [
+      "metroae",
+      "static",
+      "9775e55d660395cc102159a74f209dab0fa738cb7f038d751c249bc29a333cf7"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/credentials.yml": [
+      "metroae",
+      "static",
+      "66229de12a0a904df37fc379aad56eab610e0eef27e78b3a61adb3bbffd3602a"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/deployment.yml": [
+      "metroae",
+      "static",
+      "7b9430de0b179a76f7c7c4a94172a8127f99b7debc0dfc9c0d49fdfffcfee29b"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/vrss.yml": [
+      "metroae",
+      "static",
+      "ebe201b000ffa164c32b885c84bac87d9adc0b4696b7b5350b3fc0a1e6a6bc8d"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/vscs.yml": [
+      "metroae",
+      "static",
+      "1079361afbb66d59140e4f91b2ea25bede31735c80bb7ba0f45d933a4a9d4f79"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/vsds.yml": [
+      "metroae",
+      "static",
+      "0cf1b7ff9f6040d7daac5b6650713ea724cf1358f7f1b517a94dd5a9b17b8328"
+    ],
+    "nuage-metro/src/raw_example_data/vcenter_datacenter_install/vstats.yml": [
+      "metroae",
+      "static",
+      "05c0ebc8e5c102261632a4949cf9a8965a7a6d95827ae6e7ac72e105e6ec603a"
+    ],
+    "nuage-metro/src/renumber_schema_ordering.py": [
+      "metroae",
+      "static",
+      "9b944d52d3a641f2020c4091b40292574ef7ee5687512e224cf57fc2a6342d43"
+    ],
+    "nuage-metro/src/roles/check-node-reachability/tasks/main.yml": [
+      "metroae",
+      "static",
+      "d1b3d7227dd84f708c979b4d37dc9ab44bc091ad4cd05c4d6967ea6a164e38c7"
+    ],
+    "nuage-metro/src/roles/check-node-running/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "423a4a0e4fda132f31937166289c90c717e11a638df00f5f2c3ede8303a37d34"
+    ],
+    "nuage-metro/src/roles/check-node-running/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c3a91cda80d4fddede218426e0662ca98dbe7d960be1e3d4639f8197241fedc3"
+    ],
+    "nuage-metro/src/roles/check-node-running/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "7cb3355c9a89845b22fcad82c0a19e24006c0f4b967e154cb611b87604543e22"
+    ],
+    "nuage-metro/src/roles/check_vrs_prereqs/tasks/main.yml": [
+      "metroae",
+      "static",
+      "7325d4c1ffe1f255ab6476da3f0357b49f2a699e57249dabfb9ff42ba6978b58"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-dns.yml": [
+      "metroae",
+      "static",
+      "220aebdfccf739ec1b77247110b6769c848f447a5939d03e92adc45c2af42ef3"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-for-package.yml": [
+      "metroae",
+      "static",
+      "08e4756d08caaca60809dc37f09f99297601110a20664e0baf35b196ee098532"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-ip-in-range.yml": [
+      "metroae",
+      "static",
+      "4122aecbefe3aca2f35bc61cdc1bbec205f17f81f16ae363cc68e83bedbe756e"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-predeploy-prereq.yml": [
+      "metroae",
+      "static",
+      "65b86e18d15f9d18533f019bdabe5dc719f6a0ae93590cbebdb553db60d19f66"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-prereq.yml": [
+      "metroae",
+      "static",
+      "b69dfd123421b39b6eb13ae1df7460fcbb6f734c49e97575a5a1b0cf3f2bfc18"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-upgrade-prereq.yml": [
+      "metroae",
+      "static",
+      "ac3145fce3089441ee40f7d446c626d71f0bb0ff32a81bf4cd2dbb1e584dd382"
+    ],
+    "nuage-metro/src/roles/common/tasks/check-vsd-license-validity.yml": [
+      "metroae",
+      "static",
+      "0c1cd6933c831fb54d5fc8f82cc5b9ef85e947500a8225c410cecd4c489f9ba3"
+    ],
+    "nuage-metro/src/roles/common/tasks/configure-ovftool.yml": [
+      "metroae",
+      "static",
+      "b6671ba7c49e032e46d9d278ec3eee87488b60c0dd621063f0091696692db2fa"
+    ],
+    "nuage-metro/src/roles/common/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "f7ceaaef0c98c4e5392ee9a26fc16a1f6adac604ad06541f453dfbe5138f26d9"
+    ],
+    "nuage-metro/src/roles/common/tasks/dns-process-vars.yml": [
+      "metroae",
+      "static",
+      "382b6ba1f704e4ea12a05522190b05e066d0b24ad6ad47c05c85bed6db1e3e3d"
+    ],
+    "nuage-metro/src/roles/common/tasks/gen-deployment-md5.yml": [
+      "metroae",
+      "static",
+      "20514fac6299833b48220e84376f941c0b25e6a4e6e27f25191bb97c4da00fb5"
+    ],
+    "nuage-metro/src/roles/common/tasks/get-guestfish-mount.yml": [
+      "metroae",
+      "static",
+      "525aaeb51e36dd5891c6257b21885e849d08fce4a56352c135b0bd0ce7bd7071"
+    ],
+    "nuage-metro/src/roles/common/tasks/groups-process-vars.yml": [
+      "metroae",
+      "static",
+      "345646315851366388cd8d76b35ea1cd99640f746a4ded5a27195c44ca807afb"
+    ],
+    "nuage-metro/src/roles/common/tasks/gvm-process-vars.yml": [
+      "metroae",
+      "static",
+      "16741a3e2c7782d164e19af49ce7f4f1fcd3cd47058ecd544a50b16ce72309e1"
+    ],
+    "nuage-metro/src/roles/common/tasks/hosts-process-vars.yml": [
+      "metroae",
+      "static",
+      "019673146f94a9a138488de56cd8d4473af90b1ff515ad49e8c4bd560e6e0d94"
+    ],
+    "nuage-metro/src/roles/common/tasks/kvm-predeploy-prereq.yml": [
+      "metroae",
+      "static",
+      "c214d573f1a60c6cc0a0ab3655877275f1ae1be16f2b67c6476a8df70e45fc5f"
+    ],
+    "nuage-metro/src/roles/common/tasks/linux-ntp-sync.yml": [
+      "metroae",
+      "static",
+      "13a89014909799f11bbcdb494ff8669036698639bd0d4817e9de34a8a3242c97"
+    ],
+    "nuage-metro/src/roles/common/tasks/nsgv-process-vars.yml": [
+      "metroae",
+      "static",
+      "841711b86d7a7f5d783b0b331795e51cd28bf6a1b53ade68268badcd75e5beb1"
+    ],
+    "nuage-metro/src/roles/common/tasks/nuage-openstack-plugin-vars.yml": [
+      "metroae",
+      "static",
+      "98d64a314431812c16b0ae490daf9681f14cbb13b2a0105852c81339845776aa"
+    ],
+    "nuage-metro/src/roles/common/tasks/read-deployment.yml": [
+      "metroae",
+      "static",
+      "f2240cc5ebe0b9e81c1d125872074a58462fc11cea33130b73cec1aa35b452e7"
+    ],
+    "nuage-metro/src/roles/common/tasks/set-major-minor-versions.yml": [
+      "metroae",
+      "static",
+      "b4e687da266815ceaac969db08435980979396bf04f1a98401f9babe0aed4904"
+    ],
+    "nuage-metro/src/roles/common/tasks/vcin-process-vars.yml": [
+      "metroae",
+      "static",
+      "57ecd0f77f40905528ec601ffbbfb219ba09594310e4e65322172837b816f4ac"
+    ],
+    "nuage-metro/src/roles/common/tasks/vcin-validate-as-vars.yml": [
+      "metroae",
+      "static",
+      "514bb9e793a40796518e85fbde81933058cef0c364b285921d2bc29c805c8642"
+    ],
+    "nuage-metro/src/roles/common/tasks/vnsutil-process-vars.yml": [
+      "metroae",
+      "static",
+      "02a86e4dd5339b37d294c1c224e898d316954c8bf1edf9222bbc35a2d8b3e2d5"
+    ],
+    "nuage-metro/src/roles/common/tasks/vrs-process-vars.yml": [
+      "metroae",
+      "static",
+      "52fec4e0a31fb5b45759ad2a5cf0c49f848967b757be10494dd0280bbcb6e751"
+    ],
+    "nuage-metro/src/roles/common/tasks/vrs-vm-process-vars.yml": [
+      "metroae",
+      "static",
+      "bec5dd00990fadabb8913a1815e151439a526d27c45562ef602ffc2f93e12146"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsc-process-vars.yml": [
+      "metroae",
+      "static",
+      "75e64aeba6bee5ec5f74f7562d3ef938167e3f023711d15f0810f8190c0b0026"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsc-tls-setup.yml": [
+      "metroae",
+      "static",
+      "d0094731721c41437f63118c6fb5e27ec0987f1bf3f6c88a83d20c32590519e2"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-add-user-to-cmsgroup.yml": [
+      "metroae",
+      "static",
+      "80d3512224a263d87e1e479da9add303cbd5cb81522955c811bc5aa15a0aa626"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-find-image.yml": [
+      "metroae",
+      "static",
+      "2dbf2ffe6fb35e6981de332d48b19573c3bdcd5d5119046d18c1b0a1eaec998a"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-generate-transfer-certificates.yml": [
+      "metroae",
+      "static",
+      "5958b94dd2758bbe6cea4a013f74c5f4d573341133f5b5ebc7b63b876d9c4e45"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-node-info.yml": [
+      "metroae",
+      "static",
+      "8f29c50c7e38d4256b86ae83dfa1575bdf06fa77d450d84109b14c4f49293035"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-process-vars.yml": [
+      "metroae",
+      "static",
+      "188ac181adb8243e9eaba3268f70f05ccb9e8632d28b3ebcb25eaeb205e3b618"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-reset-keystorepass.yml": [
+      "metroae",
+      "static",
+      "043e611334b8005e8d95d36fd66c6d3f59b9310c27573dafb65cfe529e0e0b1d"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd-verify-db-status.yml": [
+      "metroae",
+      "static",
+      "5e909c80fa2c88c739ed81fb8dc743762357dadef5759f8250647fe76864c18a"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsd_list_iso_mount.yml": [
+      "metroae",
+      "static",
+      "e04818deb291973acb5c83f64a50eb60099b62a85ab247511c027b48edb25230"
+    ],
+    "nuage-metro/src/roles/common/tasks/vsr-process-vars.yml": [
+      "metroae",
+      "static",
+      "3cc42993356af0a8fb25dde56b4e77bb8cc1fbb8134a6224fe3df525471a78cb"
+    ],
+    "nuage-metro/src/roles/common/tasks/vstat-enable-stats.yml": [
+      "metroae",
+      "static",
+      "a0309cdfe312e65e72fd670476441798bbe0188e6c87f61b4f61e70f99bdd954"
+    ],
+    "nuage-metro/src/roles/common/tasks/vstat-process-vars.yml": [
+      "metroae",
+      "static",
+      "2fcf6283d9bbd5ddf322f4bcccd32270fb8d1c9b35a4bdcd6b739ebf3b67cbbc"
+    ],
+    "nuage-metro/src/roles/common/tasks/vstat-upgrade-check.yml": [
+      "metroae",
+      "static",
+      "f5a3320dd622406be4ce58b7cb99ce7d22a55b3e66a4f056d304c4f78b56a502"
+    ],
+    "nuage-metro/src/roles/common/tasks/wait-for-ssh-port.yml": [
+      "metroae",
+      "static",
+      "51631ccd05780e34f9f98aaf6a8e7118f46fb488cd12cfd168bcc1e9b58cab19"
+    ],
+    "nuage-metro/src/roles/common/tasks/wait-for-ssh.yml": [
+      "metroae",
+      "static",
+      "9120baff3512118ebaf16fd29f01f6d361c141e630ba1188c7d7949a54a51cb8"
+    ],
+    "nuage-metro/src/roles/common/templates/dns.j2": [
+      "metroae",
+      "static",
+      "4612408ee3d5085869f24fd1afe0ead8e2389c2e7f55a5e9ad8bea6a6c6d7e4c"
+    ],
+    "nuage-metro/src/roles/common/templates/group_vars.all.j2": [
+      "metroae",
+      "static",
+      "6e08516e30385ec3a5bf97cab21448dce87acdd0a316567a7e3c608ad1447df3"
+    ],
+    "nuage-metro/src/roles/common/templates/hosts.j2": [
+      "metroae",
+      "static",
+      "244e6df8617a3bd8520e06b23a22b33d41a61ad6d6471bfa0665b897c8f4d614"
+    ],
+    "nuage-metro/src/roles/common/templates/network.j2": [
+      "metroae",
+      "static",
+      "dfb5ef2fc0c15c2c5a02d147147c724598ff7edd2e5a538322bcd7dd015f8131"
+    ],
+    "nuage-metro/src/roles/common/templates/nsgv.j2": [
+      "metroae",
+      "static",
+      "55917dddfc26983c2947f3ac3a50e8a5f251729feb499172208bcc9a48aa8953"
+    ],
+    "nuage-metro/src/roles/common/templates/nuage_plugin.ini.j2": [
+      "metroae",
+      "static",
+      "f4ca4ae17b154730ad2d4b8738880f0987ec7c7ea80d63a2097c0150b3a7ca6f"
+    ],
+    "nuage-metro/src/roles/common/templates/os_compute.j2": [
+      "metroae",
+      "static",
+      "0e1012527954fff92ae2954bbdf6056dbe78b7af1c6877e3d0ec436db17849fd"
+    ],
+    "nuage-metro/src/roles/common/templates/osc.j2": [
+      "metroae",
+      "static",
+      "60f0ae721cf2bbbd1b2212dd1256e7c9c45b15171fbe886dc22484f0628e4ebe"
+    ],
+    "nuage-metro/src/roles/common/templates/vnsutil.j2": [
+      "metroae",
+      "static",
+      "aedef814acd60ec6362ed558bbf76bcbc165689f5fedad0b8c62b7150fa83d0b"
+    ],
+    "nuage-metro/src/roles/common/templates/vrs.j2": [
+      "metroae",
+      "static",
+      "d526ded68dbf14cb5bb2265e9d9e5ea3c7c7ef3e68fda79f7e7403a9077dc4c5"
+    ],
+    "nuage-metro/src/roles/common/templates/vsc.j2": [
+      "metroae",
+      "static",
+      "20dc1f899d468973d298dc33bad743c82494074361c955f74ceb46b9fb860876"
+    ],
+    "nuage-metro/src/roles/common/templates/vsd.j2": [
+      "metroae",
+      "static",
+      "401ddcdeab68b7d4073edf4f2da458ac62019818fe626bff07b716ba364ffdd5"
+    ],
+    "nuage-metro/src/roles/common/templates/vsr.j2": [
+      "metroae",
+      "static",
+      "810917af4e14052fb6891f7f10659ea9d665e27f350f0d25e39b221a5d0dffb1"
+    ],
+    "nuage-metro/src/roles/common/templates/vstat.j2": [
+      "metroae",
+      "static",
+      "883f74828a9477e76baacd6003eb1c3cf86e9ea189c8355575a5fa788f03a3c1"
+    ],
+    "nuage-metro/src/roles/common/vars/main.yml": [
+      "metroae",
+      "static",
+      "a25672b91bff985371d1c5db3a0717717b8ce921b069477260075147074f2201"
+    ],
+    "nuage-metro/src/roles/dns-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "8b7b428a03bd6c2f931e5f3ed9c1e295318161ba5092ee9e73b12d56f30b54b3"
+    ],
+    "nuage-metro/src/roles/dns-deploy/templates/data.in-addr.arpa.j2": [
+      "metroae",
+      "static",
+      "520a4aef85492ff91b4b8bb1c00521b979a11df2e735fee9dcd7c4f20bd34150"
+    ],
+    "nuage-metro/src/roles/dns-deploy/templates/data.training.net.zone.j2": [
+      "metroae",
+      "static",
+      "251a1c04b35a4ae6f13ee7049354b5c545b65666161caa75245dde0c7aeb7492"
+    ],
+    "nuage-metro/src/roles/dns-deploy/templates/mgmt.in-addr.arpa.j2": [
+      "metroae",
+      "static",
+      "1dfcf6f9213026ea5ab456ca1aeaddc7f1741c240a2eb6aabec3cdd2c25e1edb"
+    ],
+    "nuage-metro/src/roles/dns-deploy/templates/mgmt.training.net.zone.j2": [
+      "metroae",
+      "static",
+      "dfcc737b608e6e945dfa492c564b3d1b7cc0f614129080bde8a21a0a19cc89dd"
+    ],
+    "nuage-metro/src/roles/dns-deploy/templates/named.conf.j2": [
+      "metroae",
+      "static",
+      "2b120bee05a4813da5734ce75940fd61cc2cb76ce7f5aecb97c4176267429d9d"
+    ],
+    "nuage-metro/src/roles/dns-destroy/tasks/dns_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "083ac6af866bab86bc6707f88c824f4c69fd1424aec44f413cbc817b730eddae"
+    ],
+    "nuage-metro/src/roles/dns-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "67b1be3ab6f11c1acb189bbebba2c3a9897aa316acd6b5e82861457d1b117330"
+    ],
+    "nuage-metro/src/roles/dns-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "eb5683d28366c7accc99befd7548f7ad072fdc3ee779f929845562ecebcc952e"
+    ],
+    "nuage-metro/src/roles/dns-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "62707043003dbf25fb67898b58df2092385a3f0d3ab1f84d4b38f22d66b5260d"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "51491e89d2206a2a67aca0b1590eed2a83ea6cc3cc1caedc81ed1b69ae6ffcc4"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/templates/authorized_keys.j2": [
+      "metroae",
+      "static",
+      "87109d31b312b6981e215a6f730e81f23123f552983348f3087b514a169e1ffb"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/templates/dns.xml.j2": [
+      "metroae",
+      "static",
+      "24fab0829fdbdb4bba6b1a7e56e91259a22c5ebc1adfaf03136a6d3148ec78ce"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "ba2391fe568294f4b0a4ab49f567bd6400cf5b12609035c543a3f7c8b783b5ef"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/templates/ifcfg-eth1.j2": [
+      "metroae",
+      "static",
+      "1bd7983d83117acf0404ad51bff500f82f5e37f96cfb16c4b3d3ae1781e33dd1"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/templates/route-eth1.j2": [
+      "metroae",
+      "static",
+      "63ec1c1ac10dd7ba71eabe3ca90e52d32f7c6fb9735fbaa92f9e9062b84b27ea"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/dns-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "34047aa0abda3d20506d730fb3f2ecf91882a31192d1282b4f9be9590335e0b5"
+    ],
+    "nuage-metro/src/roles/gvm-destroy/tasks/gvm_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "3f345e26c07e46588a54032fac319fadc5aa3085140400a5b4ae2b558ade6eb6"
+    ],
+    "nuage-metro/src/roles/gvm-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "f617727d05dd1aa1d811d56e8f51e66c39e0289f2880c6f9dc5590a1d691a20a"
+    ],
+    "nuage-metro/src/roles/gvm-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "23dda00719ac1dc673bac37fb62571f2d04492e40db748c994bc8a5370abecf6"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "2d8b82e17f929aba52aa0752c610d6209e821086f592ea18cf1dd123b3e244ac"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "ebb2337e458477d7d7f0752c3b9be4c4229ba64bb427cb99abbb4fdcf8a8b525"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "5610897025af07c2d315b8ab83f0676be1003a8b3f8b386dce6312c525c37ed5"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/gvm-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "60b670506cb7cfca7c35f1fc95d20ad6a197b6f97a8ce0515a851c7d6fcea137"
+    ],
+    "nuage-metro/src/roles/mesos-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "0b3945feb845021cabd08b4cb9c9d615e874049eac674067965a5ef65306ed81"
+    ],
+    "nuage-metro/src/roles/nsgv-destroy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "6fd32190a0aa5b176409ee1ee3d1c1640b2f714669aa826afb0e57d000e9221c"
+    ],
+    "nuage-metro/src/roles/nsgv-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "520ecda094765761140afc40670423d95cf0fff6e9904a3cd390886dfa90de95"
+    ],
+    "nuage-metro/src/roles/nsgv-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "6ad4e348eb5ea81b387f333ffe1d93b4dd00439f6c8aaa4b412b0e1bf8c338c1"
+    ],
+    "nuage-metro/src/roles/nsgv-destroy/tasks/nsgv_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "4a9588e28bc3bb99e723c07694ee3f80c7e17586f5d4083fbe0f7183ea9ca802"
+    ],
+    "nuage-metro/src/roles/nsgv-destroy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "9fe0a9f6b9d8c40454a950adde00aaa637b7b20dcac0ed4b924f9a7e1bba4428"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/files/aws-nsg-vpc.json": [
+      "metroae",
+      "static",
+      "30644a79244c1f6bf65346d432971ab5f70d2fa80d85ea8869bd4ecedd355dd9"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/files/cfn-template-sample-vpc-structure.json": [
+      "metroae",
+      "static",
+      "30644a79244c1f6bf65346d432971ab5f70d2fa80d85ea8869bd4ecedd355dd9"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "b340b31a3bc5dbac37bc588fb78e42e50be8ec914e1b5c7e827e771a230c13b3"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "ed04f8a4017995f0698af6a4f3a72db775a1afd222f470b9a9eeb0e19449f2b4"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "8fa092182261d8a33e943d6b5892108a2f0c35bf7be89a45cd59ec2bdd9a29a7"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "428de358d7e0f54029b25a090f47009b94b015d122be4f4ef40175a8e46829d7"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "44b35c84f71300e76cb09e8c2e7dc0469fbe4925b5b3ed071e86ceb4c3c86418"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/templates/aws-nsg.json.j2": [
+      "metroae",
+      "static",
+      "b9bfa279998a96a2dc53eca5f34d1bc90263ffcd61e6afa713386db3af04d5b4"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/templates/cfn-template-nsg-aws-with-eni.json.j2": [
+      "metroae",
+      "static",
+      "1eb8ffb7fa4f67dfb5510a75a9e4c7c7f0c78510ed48ae0df33e1eb54369b955"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/templates/nsgv.xml.j2": [
+      "metroae",
+      "static",
+      "ba20dde60d7eb10f86607f8e5b447126510b265ec2257a79117c8084eb51ba83"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/nsgv-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "954cfafe6420e5e7a8ce2f71dd1abee783cc29d72a8649281ee6310cfe83e4a6"
+    ],
+    "nuage-metro/src/roles/nuage-unzip/README.md": [
+      "metroae",
+      "static",
+      "9e78e3dfc39dc715040964336534fd89f0aa34e02128dcf747142ab0a03d5a15"
+    ],
+    "nuage-metro/src/roles/nuage-unzip/tasks/main.yml": [
+      "metroae",
+      "static",
+      "546393433fcb8c2cfe309ddefe20ee84462e8f52fb08eb9aca4efc34bfd696a3"
+    ],
+    "nuage-metro/src/roles/nuage-unzip/tasks/unpack_actions.yml": [
+      "metroae",
+      "static",
+      "1e5bd5948dcdac41d1baff2e9e3ebd5e3e19b1f6c8b3325c42570d3350182b04"
+    ],
+    "nuage-metro/src/roles/nuage-unzip/tasks/unpack_actions_vsr.yml": [
+      "metroae",
+      "static",
+      "00094fa34edb251dc14517d1a677991faf9ecaf316b8c2946b9d67e3c4d90c93"
+    ],
+    "nuage-metro/src/roles/nuage-unzip/vars/main.yml": [
+      "metroae",
+      "static",
+      "18b098731aecd2fe20ccdc65f5c9466e9f67a5d6a7a47ab200c01f2f3163878a"
+    ],
+    "nuage-metro/src/roles/os-vsd-osc-integration/README.md": [
+      "metroae",
+      "static",
+      "b1b36a4cec32fb6b7275f9d879bf92ccf70e40046e5d51370b8927300aaf1080"
+    ],
+    "nuage-metro/src/roles/os-vsd-osc-integration/handlers/main.yml": [
+      "metroae",
+      "static",
+      "94f8d9407b9b55a29c00076c8f037b01f26ca2e9b9bc9dba9cd3b2b33b864fbe"
+    ],
+    "nuage-metro/src/roles/os-vsd-osc-integration/tasks/main.yml": [
+      "metroae",
+      "static",
+      "99d134b6c4319698fcb2073eeb365ec8f434932db810869323bf89055a8dcfdd"
+    ],
+    "nuage-metro/src/roles/os-vsd-osc-integration/vars/main.yml": [
+      "metroae",
+      "static",
+      "05d20cbc936c236551b4ca276df3dbef3aec6778f1dec14fe28c78b0f3840a2e"
+    ],
+    "nuage-metro/src/roles/reset-build/files/hosts": [
+      "metroae",
+      "static",
+      "fa57fdebe3bbbcca807ce5c3adbe05110b510106069ab754062ecadae3833abb"
+    ],
+    "nuage-metro/src/roles/reset-build/tasks/main.yml": [
+      "metroae",
+      "static",
+      "75040cfa6b19c38b9538a898b09b7d6eea9b62445dbfa5afd528a14e814abfc4"
+    ],
+    "nuage-metro/src/roles/reset-build/vars/main.yml": [
+      "metroae",
+      "static",
+      "cfc95e60160fcc18163730613de66ebeef8088c20cb82c78884b5f492698a32d"
+    ],
+    "nuage-metro/src/roles/stcv-postdeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "242cf869910fdc6757dfd4f11baefbdc2dbb916d222d45960abe8b23a6cae51c"
+    ],
+    "nuage-metro/src/roles/stcv-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "2bc806cad43adfe02279546781a6cf1516878741259e4eaaa000433fa16e93eb"
+    ],
+    "nuage-metro/src/roles/stcv-postdeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "8b64b2f78e598463d3ac11f05bc67433109797bb789c77ca86be592946e4ef92"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "ffc08826611168f95b5242cdb072a2d0e3fb548746345b5b892327bb5c3b3d0b"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "8d742693170134eb0cda2c7dd56c41b7e8bc680785df1f384c749f873c8dc838"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "7c55198e16d31ffb0141fee8815028aee3dd11f6decc3a37074fe921a7ec55e0"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/templates/admin.conf.j2": [
+      "metroae",
+      "static",
+      "6dd0c24707bf48b8711e317f66bed4f47ab4664f47b5c7f1a62d6353fa39cb20"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/templates/vSTC.xml.j2": [
+      "metroae",
+      "static",
+      "d2cb453c0829248de7e214af0500af92c13a6c134734b6f41daea1406b4edee0"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/stcv-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/temp-rename-build/tasks/dns_build_helper.yml": [
+      "metroae",
+      "static",
+      "687dc1c1c426d2b4078bc07bf6584f7da5669e716085c9af601d23ae0d86d571"
+    ],
+    "nuage-metro/src/roles/temp-rename-build/tasks/main.yml": [
+      "metroae",
+      "static",
+      "b54e58319ce34277bf0b905a67a7286dbc3f2e9d905f5f1ba937dd79c4ca2d7b"
+    ],
+    "nuage-metro/src/roles/temp-rename-build/templates/gvm.j2": [
+      "metroae",
+      "static",
+      "af1827911e3001f1b0044367fd68529a5539a11a9ca9a4fe438c799e70ed7ea2"
+    ],
+    "nuage-metro/src/roles/temp-rename-build/templates/vrs_vm.j2": [
+      "metroae",
+      "static",
+      "c008bf42d7dcca40d4f3a93d9f31aafdd3f530b18d0c0f9d0ef5a315d52d084f"
+    ],
+    "nuage-metro/src/roles/temp-rename-build/vars/main.yml": [
+      "metroae",
+      "static",
+      "4f8c77c86ff25e7576a2f69025632aa860335d26a13cccd144073b7acdab66b0"
+    ],
+    "nuage-metro/src/roles/vcin-create-dvs/tasks/main.yml": [
+      "metroae",
+      "static",
+      "5028c96341fe72d60fdf527cb16add21d7406d1ac5dd51cd638b13445ed78ffb"
+    ],
+    "nuage-metro/src/roles/vcin-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "667782e1f60d8cfac676d6bc7e5cb6fade8fd1d60eef846ae0b1d874077393b9"
+    ],
+    "nuage-metro/src/roles/vcin-health/tasks/monit_status.yml": [
+      "metroae",
+      "static",
+      "741e39c4906d3392cb316fa2deaa276bb5e8284481d889b71ff1b72018f9df02"
+    ],
+    "nuage-metro/src/roles/vcin-health/tasks/report_footer.yml": [
+      "metroae",
+      "static",
+      "3b70651939bbef4916bf0d0117b476e6701b425c1a9ae316c81c743e3351fc97"
+    ],
+    "nuage-metro/src/roles/vcin-health/tasks/report_header.yml": [
+      "metroae",
+      "static",
+      "b846279a3c1bacc358bfa7e456ac08f7263ce4277dbc38a567a81e491d7bfae6"
+    ],
+    "nuage-metro/src/roles/vcin-health/vars/main.yml": [
+      "metroae",
+      "static",
+      "29d0d8f7e7da07f0bc1acabae59387e3daf09977c79d52eb9dd5752b61bcd46d"
+    ],
+    "nuage-metro/src/roles/vcin-vrs-upgrade/README.md": [
+      "metroae",
+      "static",
+      "9c5e25207c6d350a97ec64182eac40eaec8866e08dd44bda22912b96c903ced5"
+    ],
+    "nuage-metro/src/roles/vcin-vrs-upgrade/tasks/main.yml": [
+      "metroae",
+      "static",
+      "7fdc84fd22c42b40515e60dcf6141f055b79ce41aba573b1386278eb47b6bbda"
+    ],
+    "nuage-metro/src/roles/vnsutil-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "093a607c02c0e918a5d474e86f3c381dbb8b9fd1de45326a86b082c298ad4a5a"
+    ],
+    "nuage-metro/src/roles/vnsutil-deploy/templates/dhcpd.conf.j2": [
+      "metroae",
+      "static",
+      "d145074cbfc449a4372377181863e832306a625e88f80ed51f038c9aa32cfe09"
+    ],
+    "nuage-metro/src/roles/vnsutil-deploy/templates/dnsmasq.conf.j2": [
+      "metroae",
+      "static",
+      "206494b6b04dc753519225368e13b5447a8ea81d460f5201e12820d858921b30"
+    ],
+    "nuage-metro/src/roles/vnsutil-deploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "1c3eb897ed842aa4301727ed5e9332292e653b3ba20a13bb2cae5d4e3752b5ca"
+    ],
+    "nuage-metro/src/roles/vnsutil-destroy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "b4c00a1803ae38b77ceba0f288d034c9755439bc5382942cbd8d0a19466f0064"
+    ],
+    "nuage-metro/src/roles/vnsutil-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "2c571c88d9119ff1e22588ee6eab875b7d052b97ad168006bf6b42dc3e59d503"
+    ],
+    "nuage-metro/src/roles/vnsutil-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "0ec2357ff8a7909ca1c5405d813ede78d288eee76f8194b192da2326f5f7c595"
+    ],
+    "nuage-metro/src/roles/vnsutil-destroy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "895cb5c202a3b3c0ddbca968a2e0327648e2c0afe578af8a7808a73629df4881"
+    ],
+    "nuage-metro/src/roles/vnsutil-destroy/tasks/vnsutil_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "0c5a042ecee504ac3415de468d0db235a08b2b05a669ec715fec6c2473709227"
+    ],
+    "nuage-metro/src/roles/vnsutil-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c9f426d4ba020b8b10de0d1a89c6df1a1556b145017affa4c498c2259680a4e7"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/files/aws-vnsutil.yml": [
+      "metroae",
+      "static",
+      "4df43b45468d97aec8c2c69c73d6ac166c29bb1e8ed1d75d2f45282502331a9f"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "8f6c1295dc7add07ceddcc0279521207c9fa569cc1cf20a6ea27e51316a79a0b"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "ed04f8a4017995f0698af6a4f3a72db775a1afd222f470b9a9eeb0e19449f2b4"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "4ad81853d6eaa4724fef24cb5604d75bb8e61b4b8140f8cef17b6b27d63a54b9"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "a2102ead579a31e50e25a097ca627801d90084fe3db62bf721e2a4c8f84fa051"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/nuagex.yml": [
+      "metroae",
+      "static",
+      "6602a6ffe265e4db4ee09af0ad43f722cb8446b0613d47f713d4138cf3bf4f7a"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "b8ab9c45d4d0ca047ab44be2f53376d3e26ea80b9b4c09dacbc502de3dbe146b"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/templates/authorized_keys.j2": [
+      "metroae",
+      "static",
+      "87109d31b312b6981e215a6f730e81f23123f552983348f3087b514a169e1ffb"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "a76321e97238ba3c23611d3e0bb13307fc0935c41d570f9c27bca09cbc4eabeb"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/templates/ifcfg-eth1.j2": [
+      "metroae",
+      "static",
+      "74d9bed626ef6b971b5ec1ef0e376f8de28de1f87e2d88b03ab1eb5bb5ffe00d"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/templates/route-eth1.j2": [
+      "metroae",
+      "static",
+      "63ec1c1ac10dd7ba71eabe3ca90e52d32f7c6fb9735fbaa92f9e9062b84b27ea"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/templates/vnsutil.xml.j2": [
+      "metroae",
+      "static",
+      "2ae6f1ac25750bd91d6a356bcd421a39606f09a334117f2fddb432378547fc85"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vnsutil-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "5fffc3b4f8fb9397d8c5aa2b617f81f6319595c6fa017d58cf8b19d0180d1735"
+    ],
+    "nuage-metro/src/roles/vrs-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "b9b8bae2db443823000c368a2ce66cfbd8264647c1da54e5d0bc4cfcbced82db"
+    ],
+    "nuage-metro/src/roles/vrs-deploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "695ed4da850a699c7c75baac0c79f45cc95ffbca2c2cddf58280036b4f5fa687"
+    ],
+    "nuage-metro/src/roles/vrs-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "28ad41ef1ddac7419e237e27cfb4e1e31c274043050beeb0026df5680bae405f"
+    ],
+    "nuage-metro/src/roles/vrs-health/tasks/check_controller.yml": [
+      "metroae",
+      "static",
+      "b42c33c0dccd26105d5b39ef1af8c789c72ebdc9d53645e48ddbc9662959637d"
+    ],
+    "nuage-metro/src/roles/vrs-health/tasks/check_ovs_service.yml": [
+      "metroae",
+      "static",
+      "eaed492f698893599211824449f15635f7053f95559c606da7cc971209dc9254"
+    ],
+    "nuage-metro/src/roles/vrs-health/tasks/check_processes.yml": [
+      "metroae",
+      "static",
+      "68c371cb9e599d0b9950a253cf687ca6b2a0adec416ee4809863eff41f1ef6fc"
+    ],
+    "nuage-metro/src/roles/vrs-health/tasks/check_vport_resolution.yml": [
+      "metroae",
+      "static",
+      "c14ec1048e66054e7a61206a8218aa632e9f3b9524c1c125770466d87f1a17bd"
+    ],
+    "nuage-metro/src/roles/vrs-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "f1913bb4f216e6ce144acdfe4f160e19ac169f138bb069fe7209b877ff2a6b3b"
+    ],
+    "nuage-metro/src/roles/vrs-health/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "e9631349ac57d6b7ee61d5abb0b52c84543f7fd84d6b0438e43b4bb4dcb16da1"
+    ],
+    "nuage-metro/src/roles/vrs-health/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "d3840f6278dd8433034e703dab402cbe6218d113f6442aa6ef88eb1031a942ae"
+    ],
+    "nuage-metro/src/roles/vrs-oscompute-integration/tasks/main.yml": [
+      "metroae",
+      "static",
+      "13b685731036adcc4e7c050ac9bf65132d2ba7e899eef44f2b8a01d1eb80532d"
+    ],
+    "nuage-metro/src/roles/vrs-postdeploy/files/ovs_result_verify.py": [
+      "metroae",
+      "static",
+      "263d99216d94f5bc126da1dd863ab06ef1c50358fddae39886e5f545914e79a9"
+    ],
+    "nuage-metro/src/roles/vrs-postdeploy/tasks/check_vsc_registration.yml": [
+      "metroae",
+      "static",
+      "019f7caaad0b6b2df2b0e6093caa5cd94b42644e1296a962df33369e2f5cc346"
+    ],
+    "nuage-metro/src/roles/vrs-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "1ae21ab8768734c0796d995430566188c350bba1b6a35b08fab7d66f549ccf5e"
+    ],
+    "nuage-metro/src/roles/vrs-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "f887547e5e67bb1b10f344b70823c1978ea1acd1c98f48996df1600dbf35303d"
+    ],
+    "nuage-metro/src/roles/vrs-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "a05b0b0d3872e6a04202d1c729db2e554bfc91bec620ad845931de34a2f962cc"
+    ],
+    "nuage-metro/src/roles/vrs-vm-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "a949a29a106a6efdb414817a11e518944852b18b243d7217e5985dc8126de376"
+    ],
+    "nuage-metro/src/roles/vrs-vm-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "2d69391663ecd7f70e16caed4d3a5ebb08a5ace24dcc335b82b83c40a19663bc"
+    ],
+    "nuage-metro/src/roles/vrs-vm-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "3055ac39ea3d9a0943411d66d80cc236e45d97a1075e532127f44ee02b20bf43"
+    ],
+    "nuage-metro/src/roles/vrs-vm-destroy/tasks/vrs_vm_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "cf2bc0e92bb4803070c858c09cefb08cfe355ea03cb3b8eadd70fb2325bbc57c"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "dd071301c4364566d18d9313bb817ff930c0ed65a8d1efea3aa3a752390c6195"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "a3c2896003afdf46523d45bee69c31bba03069476a7adb19b8e07f24c3f9bb52"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "5610897025af07c2d315b8ab83f0676be1003a8b3f8b386dce6312c525c37ed5"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/authorized_keys.j2": [
+      "metroae",
+      "static",
+      "87109d31b312b6981e215a6f730e81f23123f552983348f3087b514a169e1ffb"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/ifcfg-br0.j2": [
+      "metroae",
+      "static",
+      "c3c35fab3d2f18279a2be8a4c299ec210707988003043ab42c5b2d469a510aac"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/ifcfg-br1.j2": [
+      "metroae",
+      "static",
+      "40fa7f756712a7ae1010b86b77c72b933a4be4a4eeaa7327a361c4dab8be7cf3"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "b946eadce98569803478787c552fd02901c2500e6334b08eaf4665e72839a6c0"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/ifcfg-eth1.j2": [
+      "metroae",
+      "static",
+      "6eebec8f5eac99b60b351fb0798b8474f7a6ff63417978f290e4680f84d86508"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/route-br1.j2": [
+      "metroae",
+      "static",
+      "63ec1c1ac10dd7ba71eabe3ca90e52d32f7c6fb9735fbaa92f9e9062b84b27ea"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/templates/vrs_vm.xml.j2": [
+      "metroae",
+      "static",
+      "27281ec649fabc7ecc7305dee2e0aacfa2d7cc52bb9470338109cc3a1c18425a"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vrs-vm-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "5543324424876a674cbd735e07023a6729fe0cbf5f55717cbb8bbc8573da2a78"
+    ],
+    "nuage-metro/src/roles/vsc-backup/tasks/backup_vsc.yml": [
+      "metroae",
+      "static",
+      "893264d44886e515d6e0b6b91927d84371e4cf1b7547dcb59c28fb3389e22493"
+    ],
+    "nuage-metro/src/roles/vsc-backup/tasks/main.yml": [
+      "metroae",
+      "static",
+      "6ce93becf89bfd673c038031f1da4bacd5a394022b7e5d3f6b888dfee178eab6"
+    ],
+    "nuage-metro/src/roles/vsc-backup/vars/main.yml": [
+      "metroae",
+      "static",
+      "59b5a9ece75e168cdba3d8529394d471c07e50d1b59efdd226c15dfb474ffc03"
+    ],
+    "nuage-metro/src/roles/vsc-deploy/.gitignore": [
+      "metroae",
+      "static",
+      "05e188ba5f21111d759a62aa281cd9e05337d215275f7d3ccb8d3a8700282782"
+    ],
+    "nuage-metro/src/roles/vsc-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "89c7541cb0087bd94bc37b99dfff974929798065389f951772f684631df6912e"
+    ],
+    "nuage-metro/src/roles/vsc-deploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "b984d84f602de4ff28d0e3ec305892d57432d6fdc97b402caf0e5544fdada178"
+    ],
+    "nuage-metro/src/roles/vsc-deploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "6dd9a3910e004ce9a946c4f6a97aec628e066b85d70d137d48fa1bc5eec1308f"
+    ],
+    "nuage-metro/src/roles/vsc-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "9bd4280ce39bd74c689d73f7d0f1ada848bb2bb3c45bc28a54690c98b8a8c4e9"
+    ],
+    "nuage-metro/src/roles/vsc-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "2dc7f6db6377e604dea0e47f474d3183e9bb75eaeb14513ce0847337777fab5b"
+    ],
+    "nuage-metro/src/roles/vsc-destroy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "b9142e2c77c1dc594428a84572ff52824dee09de76e818183a4eb067b4c6d4eb"
+    ],
+    "nuage-metro/src/roles/vsc-destroy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "4d4b1ca17d4567fe69c208a8871ee8d8cccc6cd10b5b5fa6e425510b313cf884"
+    ],
+    "nuage-metro/src/roles/vsc-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "125bd78a7f56ba49364a27cf2c9ee360c40c54ddd398ff955a7546f63f136748"
+    ],
+    "nuage-metro/src/roles/vsc-health/tasks/report_footer.yml": [
+      "metroae",
+      "static",
+      "a5112dc5078bad58c22641003ce9378cc840e25a7ead5dc3729534fc87bc2d38"
+    ],
+    "nuage-metro/src/roles/vsc-health/tasks/report_header.yml": [
+      "metroae",
+      "static",
+      "f89925fbb6932b506d3b8ed68e7266a7bc958ff3ee7ac56146eb6e784b71e729"
+    ],
+    "nuage-metro/src/roles/vsc-health/vars/main.yml": [
+      "metroae",
+      "static",
+      "c653e69bf05378f0a395f940a9b1884af059142aa099a85e818b08d25f56e780"
+    ],
+    "nuage-metro/src/roles/vsc-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "414692e004e95fd3c2763048116da2a301a5c11eb61f6afe995dcb478674fe7a"
+    ],
+    "nuage-metro/src/roles/vsc-postdeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "257881ed997d256f00a35366406ad1cc651ec62bc6cd9ea6c726668f0d887a19"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/defaults/main.yml": [
+      "metroae",
+      "static",
+      "ca3064b81b21bf92f1d2c5b147dda9e2930965f39b517e47a4292de8b6207ff5"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "80c620e2eda008ae95c317131c6807a11197ce2c3fd5d997b246c723aa3b250d"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "8ac485b67da36f5ebf6d854aa36a02ae298270f469e56387e7ce68e43afa2793"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "a25a89e9e1309eac568f2c4c494b3b2e19f5a0ff3973ce6686871ecfe01b82ba"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/nuagex.yml": [
+      "metroae",
+      "static",
+      "bb34ff4842e0f94e42befd777fcd285be1b30cf1b8930822ff70751dab2f9782"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "23a6069c0f08146d640af9853c67c8036332b7f4dad28171a1300fdae3051872"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "5173fe851e19f20990fa3d2696a58b460ad48f8d7f62d6d5e85d026762d3f9af"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/templates/bof.cfg.j2": [
+      "metroae",
+      "static",
+      "bf6b6db19eb3cddab81d9ee14a2937ba4a8eeeb87194e9ebddb23e9e740aeb5f"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/templates/config.cfg.j2": [
+      "metroae",
+      "static",
+      "399caac8bb86f183fcf080000905dca07d5bf992cb081fb3fea8f8ce05ab80a7"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/templates/openstack.j2": [
+      "metroae",
+      "static",
+      "47c9794f6f3ccd94b93a8e0b6f0d67cf1d688a5c91c4e005199923d38346113f"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/templates/vsc.xml.j2": [
+      "metroae",
+      "static",
+      "d782095002a76d8e84f1a13ef7997a270109daa06ce469b5e4370ebf529f2555"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vsc-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "ee19df4c64c54abfb477caf58fac2623f634a1c2421537c9203ae1317c849353"
+    ],
+    "nuage-metro/src/roles/vsc-preupgrade/tasks/main.yml": [
+      "metroae",
+      "static",
+      "e034f6db7fd415dfab0fdf7769759e086fb1b2054bc92ecd3b0b4bc9cfcd4c8c"
+    ],
+    "nuage-metro/src/roles/vsc-preupgrade/vars/main.yml": [
+      "metroae",
+      "static",
+      "16541ee0e4ac90220d05975ce77372ea0f894a931b1742fc0bf4f971f2de0585"
+    ],
+    "nuage-metro/src/roles/vsc-upgrade-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "d6ca658ef26478300011972e12dceee43a753ef7d9f13a9ff08783ace7bb6cd7"
+    ],
+    "nuage-metro/src/roles/vsc-upgrade-deploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "6458d6b9c5c073f5a22a6266f9680117a8e0633d4e82b2166ec1752f2c008b0c"
+    ],
+    "nuage-metro/src/roles/vsc-upgrade-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "22f574f6bb15a4b99dae64e2f199636c3c645a9f5f0328c8f7923b468baa2e98"
+    ],
+    "nuage-metro/src/roles/vsc-upgrade-postdeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "16541ee0e4ac90220d05975ce77372ea0f894a931b1742fc0bf4f971f2de0585"
+    ],
+    "nuage-metro/src/roles/vsd-dbbackup/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c4a3b23f29fc44793300c73ca500e0b981578746ac6e36eac600c3ac23e02ea3"
+    ],
+    "nuage-metro/src/roles/vsd-dbbackup/vars/main.yml": [
+      "metroae",
+      "static",
+      "f54914c60fa28aeb97bc11b1d1b3b1b8cfa4631de652ac6392652136cd11f5f8"
+    ],
+    "nuage-metro/src/roles/vsd-decouple/tasks/main.yml": [
+      "metroae",
+      "static",
+      "bf76fa122559d46b5a427bd0fa64b46c2bb1076cd6c0f5b790be89e2fcdfa73d"
+    ],
+    "nuage-metro/src/roles/vsd-decouple/tasks/report_header.yml": [
+      "metroae",
+      "static",
+      "c1a0da538facef3b4691d46e87d6fa716cfb3c20382b868770fc34884cdaf72d"
+    ],
+    "nuage-metro/src/roles/vsd-decouple/vars/main.yml": [
+      "metroae",
+      "static",
+      "01637db1c61c75c993ea103be1d9d11690ae629cf18ad784234d9dcf9cc108ee"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/files/metroae-branding.zip": [
+      "metroae",
+      "static",
+      "17ce01141e5c369bf5c36c581f6d2ad599f6f3f3c2977326b3c2f4f3681a8a4c"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/files/nuage-branding.zip": [
+      "metroae",
+      "static",
+      "1e6b583adc0db3d0e1d60532af6c73c2be6dfda269fbe5c0a46aa492f6207097"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/brand_vsd.yml": [
+      "metroae",
+      "static",
+      "ce93d2968bafb7421aa7f952a79ff5093e30262e6d798a8fcb0d80fa0bb6edab"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/cluster_ssh_keys.yml": [
+      "metroae",
+      "static",
+      "63f48556b3ca00082e38331840e2e02348b6b6838ffa7043f282a1a01975ad88"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/legacy_cluster_ssh_keys.yml": [
+      "metroae",
+      "static",
+      "c31c6c07babc8bb990ea70da71659a217b47534c9ab2e0631586bbaeba2b4b04"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "2169afe42100c93b57deb31908cd732fd195f713ed0c0b1cd6f5c85c9c1f455e"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "b8cafc7e40cf3facbbba45e220b5db33d6a82ea6a2853a02577158723ac014ee"
+    ],
+    "nuage-metro/src/roles/vsd-deploy/tasks/set_vsd_creds.yml": [
+      "metroae",
+      "static",
+      "ee6b4e1013a4efd82d81ad31456bb6a7899d079cf140d7080e6230f6a10ae82b"
+    ],
+    "nuage-metro/src/roles/vsd-destroy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "cdf55c3b5e2d9f079e2e68b06b8750accd39fa416d2531e3417a401c20fc1e4a"
+    ],
+    "nuage-metro/src/roles/vsd-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "e7ccb2012d12639e8d6721d65f72e9719fd20421832d126ec4004679aeeb789e"
+    ],
+    "nuage-metro/src/roles/vsd-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "3f6b260c750774ea4e3a237a174faf05101f03182777728a922dfb6c13837f1a"
+    ],
+    "nuage-metro/src/roles/vsd-destroy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "aad4027924882eb367449d4aec1bde3e91daa9bb111e4c92f431114c3a3536a0"
+    ],
+    "nuage-metro/src/roles/vsd-destroy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "1bbe4e1ed395a38dbf7be6038e1a77ff30b98bfccfa5dad5786f61c3a9148ec8"
+    ],
+    "nuage-metro/src/roles/vsd-ha-upgrade-block-access/tasks/main.yml": [
+      "metroae",
+      "static",
+      "0481b52b8593918e349ab6532464165b46c94099f8c773906e0286d5003de4dd"
+    ],
+    "nuage-metro/src/roles/vsd-ha-upgrade-block-access/vars/main.yml": [
+      "metroae",
+      "static",
+      "6a9585bae2deacfd88a712303827a206776aa0752d9cd4664a85c945ab48bd51"
+    ],
+    "nuage-metro/src/roles/vsd-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "67ac75713d9d88b29a65bb116e3ccab099cbb91229dd44a87d53f7ad3b4b01e7"
+    ],
+    "nuage-metro/src/roles/vsd-health/tasks/monit_status.yml": [
+      "metroae",
+      "static",
+      "d47537e2293ec6dc3062253e16c87168cae1aa4589a284aa049eb232facd1755"
+    ],
+    "nuage-metro/src/roles/vsd-health/tasks/report_footer.yml": [
+      "metroae",
+      "static",
+      "3b70651939bbef4916bf0d0117b476e6701b425c1a9ae316c81c743e3351fc97"
+    ],
+    "nuage-metro/src/roles/vsd-health/tasks/report_header.yml": [
+      "metroae",
+      "static",
+      "eabf89fbf7b3bef005c4cae72933f06dedfd8220bb16dd689b5890368ec287bb"
+    ],
+    "nuage-metro/src/roles/vsd-health/vars/main.yml": [
+      "metroae",
+      "static",
+      "705168eebd5d55dcbc9ac74e024aac2ea6f9b0f17a938fddd518a77a02fb0e42"
+    ],
+    "nuage-metro/src/roles/vsd-license/files/client.py": [
+      "metroae",
+      "static",
+      "ae2b152c032a493bbec89c7267033c8134c42cff96c71d8fd7a4494b898197a4"
+    ],
+    "nuage-metro/src/roles/vsd-license/files/vsd_license.py": [
+      "metroae",
+      "static",
+      "491800c2716fb50215acf9561249b6020afa875f3f9f81266a249dde37813784"
+    ],
+    "nuage-metro/src/roles/vsd-license/files/vsp_base_license.txt": [
+      "metroae",
+      "static",
+      "b921772dfb251d8e1ede9981feadfb09f8a118218f1720424a03d4c673ad21c3"
+    ],
+    "nuage-metro/src/roles/vsd-license/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c7c6f0d9b3372c5dc151ce9a5f5c94fce494d49234262d00310f490f4cc6a18e"
+    ],
+    "nuage-metro/src/roles/vsd-license/vars/main.yml": [
+      "metroae",
+      "static",
+      "826f26b2b85ca1528eef0f7494d8f4bb64a2f50c85b364a1c004f7e5ab4e6d5e"
+    ],
+    "nuage-metro/src/roles/vsd-osc-integration/tasks/main.yml": [
+      "metroae",
+      "static",
+      "4ceaf1187266e4101ec6bec1ea1bdca747553e6a7ee862b94165a48767f25343"
+    ],
+    "nuage-metro/src/roles/vsd-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "27f95b79bd461f9435f93c6a148dfc51fba9625f28116cf2685079474784dd31"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/files/aws-vsd.yml": [
+      "metroae",
+      "static",
+      "1eeeb3fd117f6c4b3a2404b3a712f1bca4d9c89de023c4f6b829360f9feb2e88"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "130a0f698a0ea71ee2c2574cf4f32a9f20b373693d9f1d2c840af6fea62460ba"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "ed04f8a4017995f0698af6a4f3a72db775a1afd222f470b9a9eeb0e19449f2b4"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "c92458c19ed8e0e2d75841ff21c93c4bdde8e7025d405da67897d379009072c1"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "79d1786bdd6195d1b71c66ba0647b7294e6df93db965e7783e359b061bc0ae9f"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/nuagex.yml": [
+      "metroae",
+      "static",
+      "df3253ae31c37c3b3088fefbffbda0465793de6e240bcfb2ae5dfcddf947e7dd"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "688d7e6fb24ec183d1a8fec3d7784a0fa4bed9ed6bb54c2c1114cae35068e480"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "ce760bc5cd56fb8e3e5e79817e4635f48734cf8c266027fcd8e38ed56470f691"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/templates/authorized_keys.j2": [
+      "metroae",
+      "static",
+      "87109d31b312b6981e215a6f730e81f23123f552983348f3087b514a169e1ffb"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/templates/hostname.j2": [
+      "metroae",
+      "static",
+      "c814e1aa5156c8c735289b7cdcdf3e5fb2c2b8324838692ed282012bf34c9fa7"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "61655d332c8aebacbcecff0e28ce834d63a5c16c5e6ebc38a8787ecdb07e42d2"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/templates/openstack.j2": [
+      "metroae",
+      "static",
+      "a9051c298b815ff0ae2f197fe7c656b020154308631b01f71f29379f4777b3c7"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/templates/vsd.xml.j2": [
+      "metroae",
+      "static",
+      "b28f3b1ed7e888e6666da80baf8233dd8d3e29a65ce086a2318f82049a16f655"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vsd-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "0e6f99fab8a614678785b4559f17b08950c7720a7542c066a92eb5c637671c49"
+    ],
+    "nuage-metro/src/roles/vsd-services-stop/tasks/main.yml": [
+      "metroae",
+      "static",
+      "36c720954fc8673c57e8b5f5c22329cdfc6b8a989d252bc56930d0d17d1b5856"
+    ],
+    "nuage-metro/src/roles/vsd-services-stop/vars/main.yml": [
+      "metroae",
+      "static",
+      "06ffbd6a8371730344df0d42ac85385069a6a778069fada59e60bc47a89cb079"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-complete/tasks/check_monit_status.yml": [
+      "metroae",
+      "static",
+      "6dff7499a3b837879bb5e5c2be45541b74ce9eb17ca534db870e809caeb4b211"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-complete/tasks/main.yml": [
+      "metroae",
+      "static",
+      "48a18f5a6dc88d4f6cd8ddfd2eea66a7c36f79421c200b35db2f632a211c4c29"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-complete/vars/main.yml": [
+      "metroae",
+      "static",
+      "83ed7f09ffffb0e512fe22357ebab620426593d18b260940269ce105f6708d5a"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "d772f8160cada8793f985bd1e9b1b42f3e7bd95545afcf8f8dc714e868aae8b7"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "4956b80fcbd0e60c5b3a2c1002bd19171619e2fee19f182676d11cf4246fa3f0"
+    ],
+    "nuage-metro/src/roles/vsd-upgrade-prepare-for-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "3c50559be7bfee46f5d32888e900fb5a6fd94e531e285d135433646641088602"
+    ],
+    "nuage-metro/src/roles/vsd-vns-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "22faa9b0daf00a6eab7b682ff92f507514a2b7f8b32d7a00a105a1c593a435d3"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/README.md": [
+      "metroae",
+      "static",
+      "ded291e8c0f9520594f38f6a2f3bb1cb9b1e5af6d14ec66fd501948ea8f75da8"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c99c61521221f7308367bbb69c781b7786216568beb915fde353fc6ae4cd76f1"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/templates/ports.cfg.j2": [
+      "metroae",
+      "static",
+      "d8e9d5e1d7baed12ea722ca39ad7e012d176c1f2750dc72c8f52ba9a07fdbc50"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/templates/router.cfg.j2": [
+      "metroae",
+      "static",
+      "d1ceda83809671fb3ff2bb9b4b3333db6d6048830d44d66052ed234c43e85c0a"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/templates/system.cfg.j2": [
+      "metroae",
+      "static",
+      "ee3f7b49bae0a4b79bb4f6e5de9cef1e129615093f6bcdc3af1b4bc983a111eb"
+    ],
+    "nuage-metro/src/roles/vsr-deploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "641dc0af0f805e737b4b6c4873e74d3f10c5899f167840719b59af6bc3a2f1bd"
+    ],
+    "nuage-metro/src/roles/vsr-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "747e719b438db82245ae328c6b344ab2baa1e1d7f72bc97cb02915af7e56a103"
+    ],
+    "nuage-metro/src/roles/vsr-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "96f9c0683d527d0276b5491a3c882507ee6c05252c54982bdfab3877fd952ad0"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l2-aa-with-i-es.py": [
+      "metroae",
+      "static",
+      "fcb9571d3f8b8e0dab0dbf5c722607d18c2bfe59a0e0af814e1d6484d06ad2d6"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l2-as-with-bgp-mh.py": [
+      "metroae",
+      "static",
+      "de478de2ee08116cdabcf1819388e2e955e8ac76bd5ef0f6dc3f67af8bf95ec3"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l2-irb-with-vrrp.py": [
+      "metroae",
+      "static",
+      "9e12d16560121fea3aced1ada055bbc521383f04fbd5a3fb5f2949dcea8b7d68"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l2-vxlan-nosap-bgpad.py": [
+      "metroae",
+      "static",
+      "3c48eac42d3772d2ffff303bc64226a32350559330ebff2510583ed376dbc6c0"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l3vxlan-with-bgp-pece.py": [
+      "metroae",
+      "static",
+      "4ad64ad0b869421fd1aa61b1b450362d292654d0dc621145d9a3a497a89c66e0"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/files/l3vxlan-with-lo.py": [
+      "metroae",
+      "static",
+      "146a2e34f5cd4db7dbd65af3af600c804ebc4e835db1d5773765bb59bb504fef"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/tasks/copy_python_scripts.yml": [
+      "metroae",
+      "static",
+      "e26424f2ff1b4d923a175c52b7b41ed367177d16509c3c7a2d7b2aae2a64a339"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "0bde14f003098c8d04f552ce7197607dc10b0f8c40f2fe44bef45e85662a1512"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/templates/vsd_integration.cfg.j2": [
+      "metroae",
+      "static",
+      "603a8a90bfc0c5e67fabb07c1ab02cfff36cc1f062bddd6b2a354c0df36616aa"
+    ],
+    "nuage-metro/src/roles/vsr-postdeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "d2385400b0eda7d52de2a84965091439446ef9ec228329f060be484382c3f4ca"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/README.md": [
+      "metroae",
+      "static",
+      "15260056cd135535db6835232a443713ed66f00bd67f21fa4d2074cca2ac89ba"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/defaults/main.yml": [
+      "metroae",
+      "static",
+      "22a026adbed7be8b7e50ff368bf36b77ece0f508983cfc54f2d576f72d57701b"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "ed04f8a4017995f0698af6a4f3a72db775a1afd222f470b9a9eeb0e19449f2b4"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "470e0b5a2d6aa19bd947c029e41b5834c6c6e5c763f0383c842e55a6dc215e39"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm_check_hypervisor.yml": [
+      "metroae",
+      "static",
+      "7e7a3b88cb45ef442a8a1406bdddefb10d47fecc4f5ddba8f35f2a0042770e87"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm_check_resources.yml": [
+      "metroae",
+      "static",
+      "87492b11412a7394650a99700f1c17fa94051c0ec6180afa360afcaf261a8465"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm_define_vsr_vm.yml": [
+      "metroae",
+      "static",
+      "ed8fcbd3a0909708c96f7434954ad67419441c949dc5b4bf2cfdbb3651f9efe2"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm_deploy_image_file.yml": [
+      "metroae",
+      "static",
+      "6abc2a96ad62234845b3aaf0dee8d6112ef2846c6db7df28639546b7a5a5a47d"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/kvm_upload_license_file.yml": [
+      "metroae",
+      "static",
+      "fa1fd13120af9242f51bfc33361d955ce8ce24f3b490d12c5fe655527a522626"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "a0fc7ad8147971608d072f06d5da71a15f14c8631a4f6365c21b7ee55c97d6d8"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/templates/vsr_xml.j2": [
+      "metroae",
+      "static",
+      "240ecbab2bd5a746a060466e394c7d05b8fe7777dcc735cd3d92199b7bf809e4"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vsr-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "1a911603744df8182649e76b4c53d96c2d3360baeec44898ae871241741f7899"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/files/aws-vstat.yml": [
+      "metroae",
+      "static",
+      "14de59c2a146153c112dae87e168669644942c50a62a423a810a56b344ea3777"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "8980b6623d5fd72130e918c7618d30b6c2f33be9857c02081847c8e94e3b884b"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "ac2cc81cbffd98631c764ed75fd7b2e10914282e8e73feab480681711a81a558"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "4299fdd18be8b2ace6119b417178cb9937708e333a1dcba928b410a7295ea7d2"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/templates/firewall.j2": [
+      "metroae",
+      "static",
+      "fd683388e43ac54e33548007a2ef12f2cecd287685dc7e7d6696fdc74b27cc7b"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "cff0dad9eab20624b9fecb381ef3bb7d2e5fd931ef898eb2a0a278ec1bc2f8df"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/templates/iptables.j2": [
+      "metroae",
+      "static",
+      "aef0c5c9b0fbb17350c7c589212c34c660e9d1bf0210ae55a09de8ad0de14534"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vstat-deploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "d49c8723f69844ea7008cda15b6b2cb0cf9f4aa214de0fa1480696d4d07dbbd4"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "302d8abe9b3c0a47bec5b23aa2931d785bb6e909153051ef965d77a6ea04ab75"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "29cccb33e5092e7c812194fa008b5f05236a25c01d2b87416f94979273b3f3be"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "c990b6b5e9f5585141514c40351fdcb9bf31fb56041af02efa07fb3aa444f622"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "8d55484bda51eb8463abc35ff770a9e6f7532b4b865aa69869d5b938ec1eccff"
+    ],
+    "nuage-metro/src/roles/vstat-destroy/tasks/vstat_destroy_helper.yml": [
+      "metroae",
+      "static",
+      "03eacfee8b057513255a065f933f00fb5d766567ff4fbda41445724c8ff923b1"
+    ],
+    "nuage-metro/src/roles/vstat-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "38575105248ad50c4239f62a86c60b6ac4e9af853d15ee21f0730a328ce6f48e"
+    ],
+    "nuage-metro/src/roles/vstat-health/tasks/monit_status.yml": [
+      "metroae",
+      "static",
+      "9f31c058b12a4e85f15a74f19b31b7fbc0bb832f4ca3c4f1a9418301573996bf"
+    ],
+    "nuage-metro/src/roles/vstat-health/tasks/report_footer.yml": [
+      "metroae",
+      "static",
+      "3b70651939bbef4916bf0d0117b476e6701b425c1a9ae316c81c743e3351fc97"
+    ],
+    "nuage-metro/src/roles/vstat-health/tasks/report_header.yml": [
+      "metroae",
+      "static",
+      "e8e999dd6a7227f2c563154f6e3d271f52efc46e94c175cb54a3f9024415ed73"
+    ],
+    "nuage-metro/src/roles/vstat-health/vars/main.yml": [
+      "metroae",
+      "static",
+      "394faaed47243a319988bf7a98271d3fbfcfa8e6bab8447aa9c2f0edbacdf249"
+    ],
+    "nuage-metro/src/roles/vstat-postdeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "5072c5613c12629be35c1a4d1247268ee7476a57483bdd3201e355d5582e3389"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/files/aws-vstat.yml": [
+      "metroae",
+      "static",
+      "33746443668932398ec878b992c2594b23c33e4e9406bd185b63f42a8a87ea8e"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/aws.yml": [
+      "metroae",
+      "static",
+      "bba09bb95e553ca20a21622f49fa1702d37a7209d6edd16e64dca5dcd85cff95"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/copy_qcow2.yml": [
+      "metroae",
+      "static",
+      "ed04f8a4017995f0698af6a4f3a72db775a1afd222f470b9a9eeb0e19449f2b4"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/kvm.yml": [
+      "metroae",
+      "static",
+      "ab4781973c8707749037c3d256690cff208282c7576eeacbe30486a65c437ecf"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "1c1047cb4c1a4bc65e9ab238f1590ce7cc1519918b5722ae8365b83ee2906be7"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/openstack.yml": [
+      "metroae",
+      "static",
+      "3ff296b8ea57f99e768908b32650048b08a2480bc1e98814a62c813c4c63e990"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/tasks/vcenter.yml": [
+      "metroae",
+      "static",
+      "2c41f92c9fac9a6c1582576f6f2b4c684630577f3a067f817b5db7cd73010dab"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/templates/authorized_keys.j2": [
+      "metroae",
+      "static",
+      "87109d31b312b6981e215a6f730e81f23123f552983348f3087b514a169e1ffb"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/templates/ifcfg-eth0.j2": [
+      "metroae",
+      "static",
+      "a76321e97238ba3c23611d3e0bb13307fc0935c41d570f9c27bca09cbc4eabeb"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/templates/openstack.j2": [
+      "metroae",
+      "static",
+      "e5ad2936b7c5e7828c1d71775789febe343c4895899eaf6a6416a2c5a55ad315"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/templates/vstat.xml.j2": [
+      "metroae",
+      "static",
+      "97a44efa244e84dcc053239a8d80470f7ad389a4ba9fb674aaccf49434f9827d"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/vars/Debian.yml": [
+      "metroae",
+      "static",
+      "9c2e72773431c5be94527d76589d4cb7c8cfc66111aedb0bdfe9b8f1b3ec96e9"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/vars/RedHat.yml": [
+      "metroae",
+      "static",
+      "91f5b090f579e38b6458e015e91623c4c4ebb240d70765eafdc078dfeed86160"
+    ],
+    "nuage-metro/src/roles/vstat-predeploy/vars/main.yml": [
+      "metroae",
+      "static",
+      "ff0f17812e6786109fc26dfd0417ef0b4a14c3ef16f377a5bf1767e2c8440c06"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade-destroy/tasks/main.yml": [
+      "metroae",
+      "static",
+      "bd575422cc0f4a25ecf216c055f59c38ab71c6b4410d92ccf3e6a8d10aaa2026"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade-prep/tasks/main.yml": [
+      "metroae",
+      "static",
+      "602669f063609d884346f9f356f7e813d4d6b1ce69d8f02777fb12097aa83aee"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade-prep/tasks/prep_vstat_in_place_upgrade.yml": [
+      "metroae",
+      "static",
+      "b19edafd38f620414a6b27a10685eaaa81744ff018e4637a15df417eefe2f448"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade-wrapup/tasks/main.yml": [
+      "metroae",
+      "static",
+      "9f419f7c65c2d4b74eaac463f37eeef90a6e0b4ee5b38e50cd87274fa60c188a"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade-wrapup/tasks/post_upgrade_checks.yml": [
+      "metroae",
+      "static",
+      "d9b9b7b18f5fc55a7c89c182e3df97d40dcf6e6e13df0e88115efc57533b409a"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/files/disable_shard.json": [
+      "metroae",
+      "static",
+      "429f4958012ca39d76a9f80465741fa2ec9de6c636bdfae04514e2a3f869ebe3"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/execute_ha_script.yml": [
+      "metroae",
+      "static",
+      "dd0caa82eaa7e187585b4ff7c43f632c0a170da8f21b42e1f5c79113627b278c"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/execute_sa_script.yml": [
+      "metroae",
+      "static",
+      "bf71ee99d0c38487f5b75c84ca515c38a66dedda5044f5f759829de7a2c7fa19"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/get_health_status.yml": [
+      "metroae",
+      "static",
+      "73ca11b374e4cd6eae24f4951e9c279fb885f17df2d0c9469df608600f343818"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/main.yml": [
+      "metroae",
+      "static",
+      "8c0f120e020317cbc0433b001c0ee8b02ec9d22e05eca7fa9b8af938a5d3b515"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/vstat_in_place_upgrade.yml": [
+      "metroae",
+      "static",
+      "a1eded67069cf095f8c2dda4ad5305c05f2f29186541fd2edde1ff69c8ef9384"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/tasks/vstat_out_of_place_upgrade.yml": [
+      "metroae",
+      "static",
+      "515677998cd53a3779026d0834a67407ee7280ca655dd93847f1a917c3028513"
+    ],
+    "nuage-metro/src/roles/vstat-upgrade/vars/main.yml": [
+      "metroae",
+      "static",
+      "af0638475ede359a98a40a2ea91dfcd2e20ee574715ee6b7f341c96dccf0d2eb"
+    ],
+    "nuage-metro/src/roles/vstat-vrs-health/files/vstat_vrs_verify.py": [
+      "metroae",
+      "static",
+      "f6435fd22725d1631d9092f2e90cb8bf73ace66ca7b86076ce5550b155745300"
+    ],
+    "nuage-metro/src/roles/vstat-vrs-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "984c04826ba5ba97f7a971ec8ecab4c630ae64fbdb8d0c5988bf7e8a004c3484"
+    ],
+    "nuage-metro/src/roles/vstat-vsc-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "c5487cde9af6fe050553f6acc9d36c2c9c38199a7903bf238d45c49521ab2b7f"
+    ],
+    "nuage-metro/src/roles/vstat-vsc-health/vars/main.yml": [
+      "metroae",
+      "static",
+      "16541ee0e4ac90220d05975ce77372ea0f894a931b1742fc0bf4f971f2de0585"
+    ],
+    "nuage-metro/src/roles/vstat-vsd-health/tasks/main.yml": [
+      "metroae",
+      "static",
+      "22df6586175eb89a97ec28b4fad0b330bcbf3f3fc1a4a628d02d40e57fae987b"
+    ],
+    "nuage-metro/src/vault-env": [
+      "metroae",
+      "static",
+      "d711f76e9ccf9023aecbc3412f8b3cdd3354f7708f4cbc0ec5d8c8e11db17b39"
+    ],
+    "nuage-metro/src/workflows.yml": [
+      "metroae",
+      "static",
+      "4009de304eee71154355b2ce75f5e50b2a7eb68b726c76a43a212da0911bb19f"
+    ],
+    "nuage-metro/yum_requirements.txt": [
+      "metroae",
+      "static",
+      "1d8678d093905c8cb590d4e7829fd0ca206724e04b8eeeb043e8d20706ecfd32"
+    ],
+    "reactive/__init__.py": [
+      "layer:basic",
+      "static",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "reactive/metroae.py": [
+      "metroae",
+      "static",
+      "18cc2959000e8c759bb74cb55ac437ba7345916978483b8dcfa8394770b3942f"
+    ],
+    "requirements.txt": [
+      "layer:basic",
+      "static",
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ],
+    "tests/00-setup": [
+      "metroae",
+      "static",
+      "111c079b81d260bbcd716dcf41672372a4cf4aaa14154b6c3055deeedae37a06"
+    ],
+    "tests/10-deploy": [
+      "metroae",
+      "static",
+      "5e03d4a596f24501c805688ca7e7489045b09db040301defae1fcd5979eb3f13"
+    ],
+    "tox.ini": [
+      "layer:basic",
+      "static",
+      "0350315801b7fc2bd38a1f43a7e31d40d5a3bcfe5f6c8dac2bdf293833bc6d21"
+    ],
+    "wheelhouse/Jinja2-2.10.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4"
+    ],
+    "wheelhouse/MarkupSafe-1.1.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "4e97332c9ce444b0c2c38dd22ddc61c743eb208d916e4265a2a3b575bdccb1d3"
+    ],
+    "wheelhouse/PyYAML-3.13.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf"
+    ],
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ],
+    "wheelhouse/charmhelpers-0.19.9.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "eafdea2d76bc3b452adcce108ad5a394fa307587eba9cf020d250d2389dec0d0"
+    ],
+    "wheelhouse/charms.reactive-1.2.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "66ee4160ed4ef361fa3a6247ac7d1c85ffb76fd7287a63b8be8471b2b5486731"
+    ],
+    "wheelhouse/netaddr-0.7.19.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd"
+    ],
+    "wheelhouse/pip-8.1.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "4d24b03ffa67638a3fa931c09fd9e0273ffa904e95ebebe7d4b1a54c93d7b732"
+    ],
+    "wheelhouse/pyaml-18.11.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "b96292cc409e0f222b6fecff96afd2e19cfab5d1f2606344907751d42301263a"
+    ],
+    "wheelhouse/setuptools-39.0.1.zip": [
+      "layer:basic",
+      "dynamic",
+      "bec7badf0f60e7fc8153fac47836edc41b74e5d541d7692e614e635720d6a7c7"
+    ],
+    "wheelhouse/setuptools_scm-1.17.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "70a4cf5584e966ae92f54a764e6437af992ba42ac4bca7eb37cc5d02b98ec40a"
+    ],
+    "wheelhouse/six-1.12.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
+    ]
+  }
+}
