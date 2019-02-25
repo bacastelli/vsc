@@ -4,7 +4,6 @@
 *.bak
 *.pyc
 *~
-*.txt
 *.md5
 reports
 .idea
