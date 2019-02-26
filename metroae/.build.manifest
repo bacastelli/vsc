@@ -37,7 +37,7 @@
     "README.md": [
       "metroae",
       "static",
-      "18224e038bd643883778361cbf6f8d3721b9f01f1d1242c27288a4be7dbb1722"
+      "1564e8633058509368e7f4aaceb203f32161d93a06630b4b46078483b7b2a2ce"
     ],
     "bin/charm-env": [
       "layer:basic",
@@ -57,12 +57,12 @@
     "bundles/vsc_bundle.yaml": [
       "metroae",
       "static",
-      "894dc59d8db1f7a24794f3a350b7fc94bac4f8c27e2d24503f480874deb58b87"
+      "122fc32e61f51839b0073a051c21023239860239a08b39c1e0500b8519218458"
     ],
     "config.yaml": [
       "metroae",
       "dynamic",
-      "3aa382f19fb6e34599a2a56ac6b468a159ca0f3675d07fab20fe1421457d2a21"
+      "4910d48b8e83026d25e5f2a2a37f77304943ed6c9ce46b25f4c271cb9420b1f6"
     ],
     "copyright": [
       "metroae",
@@ -84,29 +84,29 @@
       "dynamic",
       "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
     ],
-    "hooks/container-relation-broken": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/container-relation-changed": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/container-relation-departed": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/container-relation-joined": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
     "hooks/hook.template": [
       "layer:basic",
       "static",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/host-system-relation-broken": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/host-system-relation-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/host-system-relation-departed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/host-system-relation-joined": [
+      "layer:basic",
+      "dynamic",
       "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
     ],
     "hooks/install": [
@@ -154,26 +154,6 @@
       "dynamic",
       "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
     ],
-    "hooks/vrs-controller-service-relation-broken": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/vrs-controller-service-relation-changed": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/vrs-controller-service-relation-departed": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
-    "hooks/vrs-controller-service-relation-joined": [
-      "layer:basic",
-      "dynamic",
-      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
-    ],
     "icon.svg": [
       "metroae",
       "static",
@@ -207,7 +187,7 @@
     "metadata.yaml": [
       "metroae",
       "dynamic",
-      "07439b1fb5ac3cb06c22c05722828a44df9211e1e580b65f207dd84c2aa8ff31"
+      "2e14125840298f1b47167c772ef79da09195a9e2648a7860b21272aca3f10d7c"
     ],
     "nuage-metro/.gitignore": [
       "metroae",
@@ -3797,7 +3777,12 @@
     "reactive/metroae.py": [
       "metroae",
       "static",
-      "4df9efb8e0259542389b8d387f0f1018ba27fa63abe0c8c4595e90f60961a5da"
+      "92da25d55a3cc706ece3734a4206230bc585efbe63744445078a9a8b797ce464"
+    ],
+    "reactive/relations/juju-info/requires.py": [
+      "metroae",
+      "static",
+      "2d205ee29a951d4324b0cdacce8f27c900f65e5f2b90e4ed7a9c35520ca90976"
     ],
     "requirements.txt": [
       "layer:basic",

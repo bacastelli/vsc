@@ -8,11 +8,8 @@
 "series":
 - "bionic"
 "requires":
-  "container":
+  "host-system":
     "interface": "juju-info"
     "scope": "container"
-"provides":
-  "vrs-controller-service":
-    "interface": "nuage-vrs-control"
 "display-name": "MetroAE"
 "subordinate": !!bool "true"
